@@ -1,10 +1,6 @@
 package NotInTH.SecondLot.DP.MinimumJumps;
 
-/**
- * Created by sjain on 8/25/17.
- */
 
-//http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
 public class MinimumJumpsDPBottomUp {
     // Returns minimum number of jumps to reach arr[n-1] from arr[0]
     public int findJumps(int arr[]) {
@@ -13,7 +9,7 @@ public class MinimumJumpsDPBottomUp {
         int[] jumps = new int[size]; // jumps[size-1] will hold the result
         int i, j;
 
-        //base case
+        //base case - check if
         if (size == 0 || arr[0] == 0)
             return Integer.MAX_VALUE;
 

@@ -2,11 +2,9 @@ package NotInTH.SecondLot.DP.MinimumJumps;
 
 import java.util.HashMap;
 
-/**
- * Created by sjain on 8/25/17.
- */
+
 public class MinimumJumpsDP {
-    int count =0;
+
     HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
     private int findJumps(int[] arr, int startIndex) {
 
@@ -26,7 +24,6 @@ public class MinimumJumpsDP {
             //means no further recursion is required
             return 1;
         }
-        //System.out.println(startIndex + "    " + ++count);
         if(arr[startIndex]==0){
 //            System.out.println("Cannot move further");
             return Integer.MAX_VALUE;
