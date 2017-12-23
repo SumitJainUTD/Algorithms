@@ -1,8 +1,6 @@
 package OtherLaptop.ArrayProblems.MajorityElement;
 
-/**
- * Created by sjain on 8/12/17.
- */
+
 public class Boyer_Moore {
     public static void find(int [] arrA) {
         int size = arrA.length;

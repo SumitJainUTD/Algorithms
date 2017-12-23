@@ -1,8 +1,5 @@
 package OtherLaptop.ArrayProblems.LocalMinima;
 
-/**
- * Created by sjain on 8/14/17.
- */
 public class LocalMinimaBinary {
 
     public int find(int [] arrA, int start, int end){
