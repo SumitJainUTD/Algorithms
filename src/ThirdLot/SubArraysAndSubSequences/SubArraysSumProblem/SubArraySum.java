@@ -1,4 +1,4 @@
-package ThirdLot.SubArraysSumProblem;
+package ThirdLot.SubArraysAndSubSequences.SubArraysSumProblem;
 
 /**
  * Created by sumi1 on 12/22/2017.

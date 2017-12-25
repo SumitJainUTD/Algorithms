@@ -1,4 +1,4 @@
-package ThirdLot;
+package ThirdLot.SubArraysAndSubSequences;
 
 /**
  * Created by sumi1 on 12/19/2017.
