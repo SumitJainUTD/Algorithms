@@ -1,8 +1,7 @@
-package ThirdLot.Graph.GraphBFS;
+package ThirdLot.Graph.DFS.GraphDFS;
 
 import java.util.LinkedList;
-import java.util.Queue;
-
+import java.util.Stack;
 
 public class Graph {
     int vertex;
@@ -17,24 +16,26 @@ public class Graph {
     }
 
     public void addEdge(int source, int destination){
+
         //add forward edge
         list[source].addFirst(destination);
     }
 
-    public void BFS(int startIndex){
+    public void DFS(int startIndex){
+        System.out.print("Depth First Traversal: ");
         boolean[] visited = new boolean[vertex];
-        Queue<Integer> queue = new LinkedList<>();
+        Stack<Integer> stack = new Stack<Integer>();
 
-        queue.add(startIndex);
+        stack.push(startIndex);
         visited[startIndex]= true;
-        while(queue.isEmpty()==false){
-            int nodeIndex = queue.remove();
+        while(stack.isEmpty()==false){
+            int nodeIndex = stack.pop();
             System.out.print(nodeIndex + " ");
             LinkedList<Integer> nodeList = list[nodeIndex];
             for (int i = 0; i <nodeList.size(); i++) {
                 int dest = nodeList.get(i);
                 if(visited[dest]==false){
-                    queue.add(dest);
+                    stack.push(dest);
                     visited[dest] = true;
                 }
             }
@@ -45,9 +46,11 @@ public class Graph {
     public void printGraph(){
         for (int i = 0; i <vertex ; i++) {
             LinkedList<Integer> nodeList = list[i];
-            System.out.print("head");
-            for (int j = 0; j <nodeList.size() ; j++) {
-                System.out.print("->" + nodeList.get(j));
+            if(nodeList.isEmpty()==false) {
+                System.out.print("source = " + i + " is connected to nodes: ");
+                for (int j = 0; j < nodeList.size(); j++) {
+                    System.out.print(" " + nodeList.get(j));
+                }
             }
             System.out.println();
         }
@@ -65,6 +68,6 @@ public class Graph {
         graph.addEdge(4, 1);
         graph.addEdge(4, 5);
         graph.printGraph();
-        graph.BFS(0);
+        graph.DFS(0);
     }
 }

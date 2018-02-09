@@ -3,9 +3,6 @@ package OtherLaptop.ArrayProblems.RemoveDuplicates;
 import java.util.HashSet;
 import java.util.Iterator;
 
-/**
- * Created by sjain on 8/12/17.
- */
 public class RemoveDuplicatesUsingSet {
 
     public static String removeDuplicates(String s){
@@ -21,10 +18,8 @@ public class RemoveDuplicatesUsingSet {
 
         return sbString;
     }
-
     public static void main(String[] args) {
         String s = "tutorialhorizon";
         System.out.println(removeDuplicates(s));
     }
-
 }

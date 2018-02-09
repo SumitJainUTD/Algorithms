@@ -27,13 +27,11 @@ public class TwoNonRepeatingXOR {
                 b ^= x;
         }
         System.out.println("Non Repeating Elements are: " + a + " and " + b);
-
-
     }
-
     public static void main(String[] args) {
         TwoNonRepeatingXOR t = new TwoNonRepeatingXOR();
-        int [] arrA = {6,3,1,1,2,3,5,7,7,5};
+        int [] arrA = {4,5,4,5,3,2,9,3,9,8};
         t.find(arrA);
+
     }
 }

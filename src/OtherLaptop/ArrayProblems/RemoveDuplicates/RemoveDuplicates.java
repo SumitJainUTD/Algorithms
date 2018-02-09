@@ -1,8 +1,6 @@
 package OtherLaptop.ArrayProblems.RemoveDuplicates;
 
-/**
- * Created by sjain on 8/12/17.
- */
+
 public class RemoveDuplicates {
 
     public static String removeDuplicates(String s){
@@ -23,5 +21,4 @@ public class RemoveDuplicates {
         String s = "tutorialhorizon";
         System.out.println(removeDuplicates(s));
     }
-
 }

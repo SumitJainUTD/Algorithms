@@ -3,9 +3,6 @@ package OtherLaptop.ArrayProblems.RemoveDuplicates;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
-/**
- * Created by sjain on 8/12/17.
- */
 public class RemoveDuplicatesUsingLHM {
     public static String removeDuplicates(String s) {
         LinkedHashSet<Character> set = new LinkedHashSet<Character>();

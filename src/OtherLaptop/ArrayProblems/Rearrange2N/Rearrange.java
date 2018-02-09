@@ -1,7 +1,11 @@
-package NotInTH.Arrays.Rearrange2N;
+package OtherLaptop.ArrayProblems.Rearrange2N;
 //not in TH
+
 import java.util.Arrays;
 
+/**
+ * Created by sumi1 on 7/18/2017.
+ */
 public class Rearrange {
 
     static int [] A = {1,3,5,7,2,4,6,8};

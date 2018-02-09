@@ -3,9 +3,6 @@ package OtherLaptop.ArrayProblems.NutsAndBolts;
 import java.util.Arrays;
 import java.util.HashMap;
 
-/**
- * Created by sjain on 8/13/17.
- */
 public class NutsAndBoltsHashMap {
 
     public static void match(char[] nuts, char[] bolts) {
@@ -31,8 +28,8 @@ public class NutsAndBoltsHashMap {
     }
 
     public static void main(String[] args) {
-        char[] nuts = {'$', '%', '&', '*', '@'};
-        char[] bolts = {'%', '@', '*', '$', '&'};
+        char[] nuts = {'$', '%', '&', 'x', '@'};
+        char[] bolts = {'%', '@', 'x', '$', '&'};
         match(nuts, bolts);
     }
 }

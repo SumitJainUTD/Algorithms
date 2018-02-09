@@ -32,6 +32,6 @@ public class EggDropRecursion {
         EggDropRecursion eggDropRecursion = new EggDropRecursion();
         int eggs = 2;
         int floors = 10;
-        System.out.printf("(Recursion) Minimum number of drops required in worst case with eggs: %s and floors: %s is : %s",eggs,floors,eggDropRecursion.getDrops(eggs,floors));
+        System.out.printf("(Recursion) Minimum number of drops required in worst case with eggs: " + eggs + " and floors:" + floors + " is: " + eggDropRecursion.getDrops(eggs,floors));
     }
 }

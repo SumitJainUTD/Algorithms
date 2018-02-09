@@ -26,12 +26,13 @@ public class Graph {
 
     public void printGraph(){
         for (int i = 0; i <vertex ; i++) {
-            LinkedList<Node> nodeList = list[i];
-            System.out.print("head");
-            for (int j = 0; j <nodeList.size() ; j++) {
-                System.out.print("->" + nodeList.get(j).destination);
+            if(list[i].size()>0) {
+                System.out.println("Vertex " + i + " is connected to: ");
+                for (int j = 0; j < list[i].size(); j++) {
+                    System.out.print(list[i].get(j).destination + " ");
+                }
+                System.out.println();
             }
-            System.out.println();
         }
     }
 

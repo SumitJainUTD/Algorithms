@@ -2,9 +2,6 @@ package OtherLaptop.ArrayProblems.RemoveDuplicates;
 
 import java.util.Arrays;
 
-/**
- * Created by sjain on 8/12/17.
- */
 public class removeDuplicatesUsingSorting {
     public static String removeDuplicates(String s) {
         char[] chars = s.toCharArray();

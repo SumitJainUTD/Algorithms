@@ -2,9 +2,6 @@ package OtherLaptop.ArrayProblems.NutsAndBolts;
 
 import java.util.Arrays;
 
-/**
- * Created by sjain on 8/13/17.
- */
 public class NutsAndBoltsBruteForce {
 
     public static void match(char [] nuts,char [] bolts){
@@ -28,10 +25,9 @@ public class NutsAndBoltsBruteForce {
         bolts[j] = temp;
     }
 
-
     public static void main(String[] args) {
-        char [] nuts = {'$', '%', '&', '*', '@'};
-        char [] bolts = {'%', '@', '*', '$', '&'};
+        char [] nuts = {'$', '%', '&', 'x', '@'};
+        char [] bolts = {'%', '@', 'x', '$', '&'};
         match(nuts,bolts);
     }
 }
