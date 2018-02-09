@@ -1,4 +1,4 @@
-package OtherLaptop.ArrayProblems.FindSingleElement;
+package SecondLot.ArrayProblems.FindSingleElement;
 public class FindSingleElement {
 //http://www.geeksforgeeks.org/find-the-element-that-appears-once/
     public static void find (int [] arrA){
