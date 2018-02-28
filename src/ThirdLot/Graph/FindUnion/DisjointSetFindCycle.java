@@ -1,8 +1,10 @@
 package ThirdLot.Graph.FindUnion;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class DisjointSet {
+public class DisjointSetFindCycle {
+
     static class Edge{
         int source;
         int destination;
@@ -15,13 +17,19 @@ public class DisjointSet {
 
     static class Graph{
         int vertices;
+        LinkedList<Edge>[] adjList;
         ArrayList<Edge> allEdges = new ArrayList<>();
 
         Graph(int vertices){
             this.vertices = vertices;
+            adjList = new LinkedList[vertices];
+            for (int i = 0; i <vertices ; i++) {
+                adjList[i] = new LinkedList<>();
+            }
         }
         public void addEgde(int source, int destination){
             Edge edge = new Edge(source, destination);
+            adjList[source].addFirst(edge);
             allEdges.add(edge); //add to total edges
         }
 
@@ -47,7 +55,7 @@ public class DisjointSet {
             parent[y_set_parent] = x_set_parent;
         }
 
-        public void disjointSets(){
+        public boolean isCycle(){
             //create a parent []
             int [] parent = new int[vertices];
 
@@ -62,35 +70,13 @@ public class DisjointSet {
 
                 //check if source vertex and destination vertex belongs to the same set
                 // if in same set then cycle has been detected else combine them into one set
-                if(x_set==y_set) {
-                    //do nothing
-                }else
+                if(x_set==y_set)
+                    return true;
+                else
                     union(parent, x_set, y_set);
             }
-            printSets(parent);
-        }
-
-        public void printSets(int [] parent){
-            //Find different Sets
-            HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
-            for (int i = 0; i <parent.length ; i++) {
-                if(map.containsKey(parent[i])){
-                    ArrayList<Integer> list = map.get(parent[i]);
-                    list.add(i);//add vertex
-                    map.put(parent[i],list);
-                }else{
-                    ArrayList<Integer> list = new ArrayList<>();
-                    list.add(i);
-                    map.put(parent[i],list);
-                }
-            }
-            //Print the Different sets
-            Set<Integer> set = map.keySet();
-            Iterator<Integer> iterator = set.iterator();
-            while(iterator.hasNext()){
-                int key = iterator.next();
-                System.out.println("Set Id: " + key + " elements: " + map.get(key));
-            }
+            //if here, means cycle was not found
+            return false;
         }
     }
 
@@ -100,9 +86,10 @@ public class DisjointSet {
         graph.addEgde(0, 1);
         graph.addEgde(0, 2);
         graph.addEgde(1, 3);
+        graph.addEgde(3, 4);
+        graph.addEgde(2, 3);
         graph.addEgde(4, 5);
-        graph.disjointSets();
+        System.out.println("Graph contains cycle: " + graph.isCycle());
     }
 }
-
 

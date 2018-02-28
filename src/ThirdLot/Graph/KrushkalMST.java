@@ -1,12 +1,9 @@
-package ThirdLot.Graph.WeightedGraph;
+package ThirdLot.Graph;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-/**
- * Created by sumi1 on 2/14/2018.
- */
 public class KrushkalMST {
     static class Edge {
         int source;
@@ -79,6 +76,7 @@ public class KrushkalMST {
             for (int i = 0; i <vertices ; i++) {
                 parent[i] = i;
             }
+
         }
 
         public int find(int [] parent, int vertex){

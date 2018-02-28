@@ -2,9 +2,6 @@ package ThirdLot.Graph.WeightedGraph;
 
 import java.util.*;
 
-/**
- * Created by sumi1 on 2/13/2018.
- */
 public class WeightedGraph {
     static class Edge {
         int source;
@@ -20,23 +17,29 @@ public class WeightedGraph {
 
     static class Graph {
         int vertices;
-        ArrayList<Edge> allEdges = new ArrayList<>();
+        LinkedList<Edge> [] adjacencylist;
 
         Graph(int vertices) {
             this.vertices = vertices;
+            adjacencylist = new LinkedList[vertices];
+            //initialize adjacency lists for all the vertices
+            for (int i = 0; i <vertices ; i++) {
+                adjacencylist[i] = new LinkedList<>();
+            }
         }
 
         public void addEgde(int source, int destination, int weight) {
             Edge edge = new Edge(source, destination, weight);
-            allEdges.add(edge); //add to total edges
+            adjacencylist[source].addFirst(edge); //for directed graph
         }
 
         public void printGraph(){
-            for (int i = 0; i <allEdges.size() ; i++) {
-                Edge edge = allEdges.get(i);
-                System.out.println("Edge-" + i + " source: " + edge.source +
-                " destination: " + edge.destination +
-                " weight: " + edge.weight);
+            for (int i = 0; i <vertices ; i++) {
+                LinkedList<Edge> list = adjacencylist[i];
+                for (int j = 0; j <list.size() ; j++) {
+                    System.out.println("vertex-" + i + " is connected to " +
+                            list.get(j).destination + " with weight " +  list.get(j).weight);
+                }
             }
         }
 
@@ -47,7 +50,11 @@ public class WeightedGraph {
             graph.addEgde(0, 1, 4);
             graph.addEgde(0, 2, 3);
             graph.addEgde(1, 3, 2);
+            graph.addEgde(1, 2, 5);
+            graph.addEgde(2, 3, 7);
             graph.addEgde(3, 4, 2);
+            graph.addEgde(4, 0, 4);
+            graph.addEgde(4, 1, 4);
             graph.addEgde(4, 5, 6);
             graph.printGraph();
         }

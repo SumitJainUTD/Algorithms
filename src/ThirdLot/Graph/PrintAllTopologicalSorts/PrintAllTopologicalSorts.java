@@ -55,10 +55,10 @@ public class PrintAllTopologicalSorts {
         Graph graph = new Graph(vertices);
         graph.addEgde(0, 1);
         graph.addEgde(1, 2);
-//        graph.addEgde(2, 3);
+//        graph.addEdge(2, 3);
         graph.addEgde(4, 5);
         graph.addEgde(5, 6);
-//        graph.addEgde(6, 7);
+//        graph.addEdge(6, 7);
         graph.topologicalSorting();
     }
 }
