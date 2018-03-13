@@ -26,7 +26,17 @@ public class GraphAjdacencyMatrix {
             }
             System.out.println();
         }
+        for (int i = 0; i < vertex; i++) {
+            System.out.print("Vertex " + i + " is connected to:");
+            for (int j = 0; j <vertex ; j++) {
+                if(matrix[i][j]==1){
+                    System.out.print(j + " ");
+                }
+            }
+            System.out.println();
+        }
     }
+
     public static void main(String[] args) {
         GraphAjdacencyMatrix graph = new GraphAjdacencyMatrix(5);
         graph.addEdge(0, 1);

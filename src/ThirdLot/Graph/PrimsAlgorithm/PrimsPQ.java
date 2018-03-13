@@ -3,7 +3,7 @@ package ThirdLot.Graph.PrimsAlgorithm;
 
 import java.util.*;
 
-public class PrimsAdjacencyList {
+public class PrimsPQ {
 
     static class Edge {
         int source;
@@ -19,7 +19,7 @@ public class PrimsAdjacencyList {
 
     static class HeapNode{
         int vertex;
-        int weight;
+        int key;
     }
 
     static class ResultSet {
@@ -52,15 +52,14 @@ public class PrimsAdjacencyList {
 
             boolean[] inPriorityQueue = new boolean[vertices];
             ResultSet[] resultSet = new ResultSet[vertices];
-            int [] key = new int[vertices];  //keys used to store the weight to know whether priority queue update is required
-
+            int [] key = new int[vertices];  //keys used to store the key to know whether priority queue update is required
 
 //          //create heapNode for all the vertices
             HeapNode [] heapNodes = new HeapNode[vertices];
             for (int i = 0; i <vertices ; i++) {
                 heapNodes[i] = new HeapNode();
                 heapNodes[i].vertex = i;
-                heapNodes[i].weight = Integer.MAX_VALUE;
+                heapNodes[i].key = Integer.MAX_VALUE;
                 resultSet[i] = new ResultSet();
                 resultSet[i].parent = -1;
                 inPriorityQueue[i] = true;
@@ -68,14 +67,14 @@ public class PrimsAdjacencyList {
             }
 
             //decrease the key for the first index
-            heapNodes[0].weight = 0;
+            heapNodes[0].key = 0;
 
             //add all the vertices to the priority queue
             PriorityQueue<HeapNode> pq = new PriorityQueue<>(vertices,
                     new Comparator<HeapNode>() {
                         @Override
                         public int compare(HeapNode o1, HeapNode o2) {
-                            return o1.weight-o2.weight;
+                            return o1.key -o2.key;
                         }
                     });
             //add all the vertices to priority queue
@@ -124,7 +123,7 @@ public class PrimsAdjacencyList {
                 HeapNode heapNode = (HeapNode) it.next();
                 if(heapNode.vertex==vertex) {
                     pq.remove(heapNode);
-                    heapNode.weight = newKey;
+                    heapNode.key = newKey;
                     pq.offer(heapNode);
                     break;
                 }
@@ -136,10 +135,10 @@ public class PrimsAdjacencyList {
             System.out.println("Minimum Spanning Tree: ");
             for (int i = 1; i <vertices ; i++) {
                 System.out.println("Edge: " + i + " - " + resultSet[i].parent +
-                        " weight: " + resultSet[i].weight);
+                        " key: " + resultSet[i].weight);
                 total_min_weight += resultSet[i].weight;
             }
-            System.out.println("Total minimum weight: " + total_min_weight);
+            System.out.println("Total minimum key: " + total_min_weight);
         }
 
         public static void main(String[] args) {

@@ -53,7 +53,7 @@ public class PrimAlgorithmPQBetter {
 
             boolean[] mst = new boolean[vertices];
             ResultSet[] resultSet = new ResultSet[vertices];
-            int [] key = new int[vertices];  //keys used to store the weight to know whether priority queue update is required
+            int [] key = new int[vertices];  //keys used to store the key to know whether priority queue update is required
 
             //Initialize all the keys to infinity and
             //initialize resultSet for all the vertices
@@ -90,26 +90,28 @@ public class PrimAlgorithmPQBetter {
 
                 //extracted vertex
                 int extractedVertex = extractedPair.getValue();
-                mst[extractedVertex] = true;
+                if(mst[extractedVertex]==false) {
+                    mst[extractedVertex] = true;
 
-                //iterate through all the adjacent vertices and update the keys
-                LinkedList<Edge> list = adjacencylist[extractedVertex];
-                for (int i = 0; i <list.size() ; i++) {
-                    Edge edge = list.get(i);
-                    //only if edge destination is present in heap
-                    if(mst[edge.destination]==false) {
-                        int destination = edge.destination;
-                        int newKey = edge.weight;
-                        //check if updated key < existing key, if yes, update if
-                        if(key[destination]>newKey) {
-                            //add it to the priority queue
-                            Pair<Integer, Integer> p = new Pair<>(newKey, destination);
-                            pq.offer(p);
-                            //update the resultSet for destination vertex
-                            resultSet[destination].parent = extractedVertex;
-                            resultSet[destination].weight = newKey;
-                            //update the key[]
-                            key[destination] = newKey;
+                    //iterate through all the adjacent vertices and update the keys
+                    LinkedList<Edge> list = adjacencylist[extractedVertex];
+                    for (int i = 0; i < list.size(); i++) {
+                        Edge edge = list.get(i);
+                        //only if edge destination is not present in mst
+                        if (mst[edge.destination] == false) {
+                            int destination = edge.destination;
+                            int newKey = edge.weight;
+                            //check if updated key < existing key, if yes, update if
+                            if (key[destination] > newKey) {
+                                //add it to the priority queue
+                                Pair<Integer, Integer> p = new Pair<>(newKey, destination);
+                                pq.offer(p);
+                                //update the resultSet for destination vertex
+                                resultSet[destination].parent = extractedVertex;
+                                resultSet[destination].weight = newKey;
+                                //update the key[]
+                                key[destination] = newKey;
+                            }
                         }
                     }
                 }
@@ -123,10 +125,10 @@ public class PrimAlgorithmPQBetter {
             System.out.println("Minimum Spanning Tree: ");
             for (int i = 1; i <vertices ; i++) {
                 System.out.println("Edge: " + i + " - " + resultSet[i].parent +
-                        " weight: " + resultSet[i].weight);
+                        " key: " + resultSet[i].weight);
                 total_min_weight += resultSet[i].weight;
             }
-            System.out.println("Total minimum weight: " + total_min_weight);
+            System.out.println("Total minimum key: " + total_min_weight);
         }
 
         public static void main(String[] args) {
