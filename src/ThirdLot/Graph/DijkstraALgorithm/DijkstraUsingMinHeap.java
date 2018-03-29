@@ -2,7 +2,6 @@ package ThirdLot.Graph.DijkstraALgorithm;
 
 import java.util.LinkedList;
 
-
 public class DijkstraUsingMinHeap {
     static class Edge {
         int source;
@@ -18,14 +17,8 @@ public class DijkstraUsingMinHeap {
 
     static class HeapNode{
         int vertex;
-        int key;
-    }
-
-    static class SPTNode {
-        int parent;
         int distance;
     }
-
     static class Graph {
         int vertices;
         LinkedList<Edge>[] adjacencylist;
@@ -48,33 +41,25 @@ public class DijkstraUsingMinHeap {
         }
 
         public void dijkstra_GetMinDistances(int sourceVertex){
+            int INFINITY = Integer.MAX_VALUE;
+            boolean[] SPT = new boolean[vertices];
 
-            boolean[] inHeap = new boolean[vertices];
-            SPTNode[] sptNodes = new SPTNode[vertices];
-            //keys[] used to store the key to know whether min hea update is required
-            int [] key = new int[vertices];
 //          //create heapNode for all the vertices
             HeapNode [] heapNodes = new HeapNode[vertices];
             for (int i = 0; i <vertices ; i++) {
                 heapNodes[i] = new HeapNode();
                 heapNodes[i].vertex = i;
-                heapNodes[i].key = Integer.MAX_VALUE;
-                sptNodes[i] = new SPTNode();
-                sptNodes[i].parent = -1;
-                inHeap[i] = true;
-                key[i] = Integer.MAX_VALUE;
+                heapNodes[i].distance = INFINITY;
             }
 
-            //decrease the key for the first index
-            heapNodes[sourceVertex].key = 0;
+            //decrease the distance for the first index
+            heapNodes[sourceVertex].distance = 0;
 
             //add all the vertices to the MinHeap
             MinHeap minHeap = new MinHeap(vertices);
-            //add all the vertices to priority queue
             for (int i = 0; i <vertices ; i++) {
                 minHeap.insert(heapNodes[i]);
             }
-
             //while minHeap is not empty
             while(!minHeap.isEmpty()){
                 //extract the min
@@ -82,45 +67,44 @@ public class DijkstraUsingMinHeap {
 
                 //extracted vertex
                 int extractedVertex = extractedNode.vertex;
-                inHeap[extractedVertex] = false;
+                SPT[extractedVertex] = true;
 
                 //iterate through all the adjacent vertices
                 LinkedList<Edge> list = adjacencylist[extractedVertex];
                 for (int i = 0; i <list.size() ; i++) {
                     Edge edge = list.get(i);
-                    //only if edge destination is present in heap
-                    if(inHeap[edge.destination]) {
-                        int destination = edge.destination;
-                        int newKey = edge.weight;
-                        //check if updated key < existing key, if yes, update if
-                        if(key[destination]>newKey) {
+                    int destination = edge.destination;
+                    //only if  destination vertex is not present in SPT
+                    if(SPT[destination]==false ) {
+                        ///check if distance needs an update or not
+                        //means check total weight from source to vertex_V is less than
+                        //the current distance value, if yes then update the distance
+                        int newKey =  heapNodes[extractedVertex].distance + edge.weight ;
+                        int currentKey = heapNodes[destination].distance;
+                        if(currentKey>newKey){
                             decreaseKey(minHeap, newKey, destination);
-                            //update the parent node for destination
-                            int parent_vertex_distance = sptNodes[extractedVertex].distance;
-                            sptNodes[destination].parent = extractedVertex;
-                            sptNodes[destination].distance = parent_vertex_distance + newKey;
-                            key[destination] = newKey;
+                            heapNodes[destination].distance = newKey;
                         }
                     }
                 }
             }
-            //print mst
-            printDijkstra(sptNodes, sourceVertex);
+            //print SPT
+            printDijkstra(heapNodes, sourceVertex);
         }
 
         public void decreaseKey(MinHeap minHeap, int newKey, int vertex){
 
-            //get the index which key's needs a decrease;
+            //get the index which distance's needs a decrease;
             int index = minHeap.indexes[vertex];
 
             //get the node and update its value
             HeapNode node = minHeap.mH[index];
-            node.key= newKey;
+            node.distance = newKey;
             minHeap.bubbleUp(index);
         }
 
-        public void printDijkstra(SPTNode[] resultSet, int sourceVertex){
-            System.out.println("Dijkstra Algorithm: ");
+        public void printDijkstra(HeapNode[] resultSet, int sourceVertex){
+            System.out.println("Dijkstra Algorithm: (Adjacency List + Min Heap)");
             for (int i = 0; i <vertices ; i++) {
                 System.out.println("Source Vertex: " + sourceVertex + " to vertex " +   + i +
                         " distance: " + resultSet[i].distance);
@@ -130,7 +114,7 @@ public class DijkstraUsingMinHeap {
         public static void main(String[] args) {
             int vertices = 6;
             Graph graph = new Graph(vertices);
-            int sourceVertex = 2;
+            int sourceVertex = 0;
             graph.addEdge(0, 1, 4);
             graph.addEdge(0, 2, 3);
             graph.addEdge(1, 2, 1);
@@ -145,7 +129,7 @@ public class DijkstraUsingMinHeap {
         int capacity;
         int currentSize;
         HeapNode[] mH;
-        int [] indexes; //will be used to decrease the key
+        int [] indexes; //will be used to decrease the distance
 
 
         public MinHeap(int capacity) {
@@ -153,14 +137,14 @@ public class DijkstraUsingMinHeap {
             mH = new HeapNode[capacity + 1];
             indexes = new int[capacity];
             mH[0] = new HeapNode();
-            mH[0].key = Integer.MIN_VALUE;
+            mH[0].distance = Integer.MIN_VALUE;
             mH[0].vertex=-1;
             currentSize = 0;
         }
 
         public void display() {
             for (int i = 0; i <=currentSize; i++) {
-                System.out.println(" " + mH[i].vertex + "   key   " + mH[i].key);
+                System.out.println(" " + mH[i].vertex + "   distance   " + mH[i].distance);
             }
             System.out.println("________________________");
         }
@@ -176,7 +160,7 @@ public class DijkstraUsingMinHeap {
         public void bubbleUp(int pos) {
             int parentIdx = pos/2;
             int currentIdx = pos;
-            while (currentIdx > 0 && mH[parentIdx].key > mH[currentIdx].key) {
+            while (currentIdx > 0 && mH[parentIdx].distance > mH[currentIdx].distance) {
                 HeapNode currentNode = mH[currentIdx];
                 HeapNode parentNode = mH[parentIdx];
 
@@ -205,10 +189,10 @@ public class DijkstraUsingMinHeap {
             int smallest = k;
             int leftChildIdx = 2 * k;
             int rightChildIdx = 2 * k+1;
-            if (leftChildIdx < heapSize() && mH[smallest].key > mH[leftChildIdx].key) {
+            if (leftChildIdx < heapSize() && mH[smallest].distance > mH[leftChildIdx].distance) {
                 smallest = leftChildIdx;
             }
-            if (rightChildIdx < heapSize() && mH[smallest].key > mH[rightChildIdx].key) {
+            if (rightChildIdx < heapSize() && mH[smallest].distance > mH[rightChildIdx].distance) {
                 smallest = rightChildIdx;
             }
             if (smallest != k) {

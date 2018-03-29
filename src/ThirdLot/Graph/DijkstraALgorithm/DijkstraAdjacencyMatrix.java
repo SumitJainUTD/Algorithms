@@ -20,7 +20,7 @@ public class DijkstraAdjacencyMatrix {
             matrix[destination][source] = weight;
         }
 
-        //get the vertex with minimum key which is not included in MST
+        //get the vertex with minimum distance which is not included in SPT
         int getMinimumVertex(boolean [] mst, int [] key){
             int minKey = Integer.MAX_VALUE;
             int vertex = -1;
@@ -33,66 +33,56 @@ public class DijkstraAdjacencyMatrix {
             return vertex;
         }
 
-        class ShortestPathTreeNode{
-            // will store the vertex(parent) from which the current vertex will reached
-            int parent;
-            // will store the key for printing the MST key
-            int distance;
-        }
-
         public void dijkstra_GetMinDistances(int sourceVertex){
             boolean[] spt = new boolean[vertices];
-//            HashMap<Integer, ShortestPathTreeNode> resultMap = new HashMap<>();
-            ShortestPathTreeNode[] sptNodes = new ShortestPathTreeNode[vertices];
-            int [] key = new int[vertices];
+            int [] distance = new int[vertices];
+            int INFINITY = Integer.MAX_VALUE;
 
-            //Initialize all the keys to infinity and
-            //initialize resultSet for all the vertices
+            //Initialize all the distance to infinity
             for (int i = 0; i <vertices ; i++) {
-                key[i] = Integer.MAX_VALUE;
-                sptNodes[i] = new ShortestPathTreeNode();
+                distance[i] = INFINITY;
             }
 
             //start from the vertex 0
-            key[sourceVertex] = 0;
-            sptNodes[sourceVertex] = new ShortestPathTreeNode();
-            sptNodes[sourceVertex].parent = -1;
+            distance[sourceVertex] = 0;
 
-            //create MST
+            //create SPT
             for (int i = 0; i <vertices ; i++) {
 
-                //get the vertex with the minimum key
-                int vertex = getMinimumVertex(spt, key);
+                //get the vertex with the minimum distance
+                int vertex_U = getMinimumVertex(spt, distance);
 
-                //include this vertex in MST
-                spt[vertex] = true;
+                //include this vertex in SPT
+                spt[vertex_U] = true;
 
                 //iterate through all the adjacent vertices of above vertex and update the keys
-                for (int j = 0; j <vertices ; j++) {
-                    //check of the edge
-                    if(matrix[vertex][j]>0){
-                        //check if this vertex 'j' already in spt and
-                        //if no then check if key needs an update or not
-                        if(spt[j]==false && matrix[vertex][j]<key[j]){
-                            //update the key
-                            key[j] = matrix[vertex][j];
-                            //update the result set
-                            int parent_vertex_distance = sptNodes[vertex].distance;
-                            sptNodes[j].parent = vertex;
-                            sptNodes[j].distance = parent_vertex_distance + key[j];
+                for (int vertex_V = 0; vertex_V <vertices ; vertex_V++) {
+                    //check of the edge between vertex_U and vertex_V
+                    if(matrix[vertex_U][vertex_V]>0){
+                        //check if this vertex 'vertex_V' already in spt and
+                        // if distance[vertex_V]!=Infinity
+
+                        if(spt[vertex_V]==false && matrix[vertex_U][vertex_V]!=INFINITY){
+                            //check if distance needs an update or not
+                            //means check total weight from source to vertex_V is less than
+                            //the current distance value, if yes then update the distance
+
+                            int newKey =  matrix[vertex_U][vertex_V] + distance[vertex_U];
+                            if(newKey<distance[vertex_V])
+                                distance[vertex_V] = newKey;
                         }
                     }
                 }
             }
-            //print spt
-            printDijkstra(sptNodes, sourceVertex);
+            //print shortest path tree
+            printDijkstra(sourceVertex, distance);
         }
 
-        public void printDijkstra(ShortestPathTreeNode[] resultSet, int sourceVertex){
-            System.out.println("Dijkstra Algorithm: ");
+        public void printDijkstra(int sourceVertex, int [] key){
+            System.out.println("Dijkstra Algorithm: (Adjacency Matrix)");
             for (int i = 0; i <vertices ; i++) {
                 System.out.println("Source Vertex: " + sourceVertex + " to vertex " +   + i +
-                        " distance: " + resultSet[i].distance);
+                        " distance: " + key[i]);
             }
         }
     }
@@ -100,7 +90,7 @@ public class DijkstraAdjacencyMatrix {
     public static void main(String[] args) {
         int vertices = 6;
         Graph graph = new Graph(vertices);
-        int sourceVertex = 1;
+        int sourceVertex = 0;
         graph.addEdge(0, 1, 4);
         graph.addEdge(0, 2, 3);
         graph.addEdge(1, 2, 1);
