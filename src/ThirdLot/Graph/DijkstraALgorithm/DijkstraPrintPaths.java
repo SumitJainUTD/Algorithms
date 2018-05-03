@@ -3,9 +3,12 @@ package ThirdLot.Graph.DijkstraALgorithm;
 import javafx.util.Pair;
 import java.util.Comparator;
 import java.util.LinkedList;
-import java.util.TreeSet;
+import java.util.PriorityQueue;
 
-public class DijkstraTreeSet {
+/**
+ * Created by sumi1 on 4/6/2018.
+ */
+public class DijkstraPrintPaths {
     static class Edge {
         int source;
         int destination;
@@ -15,16 +18,6 @@ public class DijkstraTreeSet {
             this.source = source;
             this.destination = destination;
             this.weight = weight;
-        }
-    }
-    static class PairComparator implements Comparator<Pair<Integer, Integer>>{
-
-        @Override
-        public int compare(Pair<Integer, Integer> o1, Pair<Integer, Integer> o2) {
-            //sort using distance values
-            int key1 = o1.getKey();
-            int key2 = o2.getKey();
-            return key1-key2;
         }
     }
 
@@ -49,34 +42,47 @@ public class DijkstraTreeSet {
             adjacencylist[destination].addFirst(edge); //for undirected graph
         }
 
-        public void dijkstra_GetMinDistances(int sourceVertex){
+        public void dijkstra_PrintPaths(int sourceVertex){
 
-            boolean[] inSPT = new boolean[vertices];
+            boolean[] SPT = new boolean[vertices];
             //distance used to store the distance of vertex from a source
             int [] distance = new int[vertices];
 
-            //Initialize all the distances to infinity
+            int [] parentVertex = new int[vertices];
+
+            //parent of the source vertex will be -1
+            parentVertex[0] = -1;
+
+            //Initialize all the distance to infinity
             for (int i = 0; i <vertices ; i++) {
                 distance[i] = Integer.MAX_VALUE;
             }
             //Initialize priority queue
             //override the comparator to do the sorting based keys
-            TreeSet treeSet = new TreeSet<>(new PairComparator());
+            PriorityQueue<Pair<Integer, Integer>> pq = new PriorityQueue<>(vertices, new Comparator<Pair<Integer, Integer>>() {
+                @Override
+                public int compare(Pair<Integer, Integer> p1, Pair<Integer, Integer> p2) {
+                    //sort using distance values
+                    int key1 = p1.getKey();
+                    int key2 = p2.getKey();
+                    return key1-key2;
+                }
+            });
             //create the pair for for the first index, 0 distance 0 index
             distance[0] = 0;
             Pair<Integer, Integer> p0 = new Pair<>(distance[0],0);
-            //add it to tree set
-            treeSet.add(p0);
+            //add it to pq
+            pq.offer(p0);
 
             //while priority queue is not empty
-            while(!treeSet.isEmpty()){
+            while(!pq.isEmpty()){
                 //extract the min
-                Pair<Integer, Integer> extractedPair = (Pair<Integer, Integer>) treeSet.pollFirst();
+                Pair<Integer, Integer> extractedPair = pq.poll();
 
                 //extracted vertex
                 int extractedVertex = extractedPair.getValue();
-                if(inSPT[extractedVertex]==false) {
-                    inSPT[extractedVertex] = true;
+                if(SPT[extractedVertex]==false) {
+                    SPT[extractedVertex] = true;
 
                     //iterate through all the adjacent vertices and update the keys
                     LinkedList<Edge> list = adjacencylist[extractedVertex];
@@ -84,7 +90,7 @@ public class DijkstraTreeSet {
                         Edge edge = list.get(i);
                         int destination = edge.destination;
                         //only if edge destination is not present in mst
-                        if (inSPT[destination] == false) {
+                        if (SPT[destination] == false) {
                             ///check if distance needs an update or not
                             //means check total weight from source to vertex_V is less than
                             //the current distance value, if yes then update the distance
@@ -92,37 +98,48 @@ public class DijkstraTreeSet {
                             int currentKey = distance[destination];
                             if(currentKey>newKey){
                                 Pair<Integer, Integer> p = new Pair<>(newKey, destination);
-                                treeSet.add(p);
+                                pq.offer(p);
                                 distance[destination] = newKey;
+                                parentVertex[destination] = extractedVertex;
                             }
                         }
                     }
                 }
             }
             //print Shortest Path Tree
-            printDijkstra(distance, sourceVertex);
+            printDijkstra(parentVertex, distance, sourceVertex);
         }
 
-        public void printDijkstra(int[] distance, int sourceVertex){
-            System.out.println("Dijkstra Algorithm: (Adjacency List + TreeSet)");
+        public void printDijkstra(int[] parent, int [] distance, int sourceVertex){
+            System.out.println("Dijkstra Algorithm: (With all paths)");
             for (int i = 0; i <vertices ; i++) {
-                System.out.println("Source Vertex: " + sourceVertex + " to vertex " +   + i +
-                        " distance: " + distance[i]);
+                System.out.print(" " + sourceVertex + "--> " +   + i + ": distance="+distance[i] + "  Path : ");
+                printPathUtil(parent, i);
+                System.out.println();
             }
         }
 
+        public void printPathUtil(int parent[], int destination){
+            //if vertex is source then stop recursion
+            if(parent[destination] == -1) {
+                System.out.print("0 ");
+                return;
+            }
+            printPathUtil(parent, parent[destination]);
+            System.out.print(destination + " ");
+        }
 
         public static void main(String[] args) {
             int vertices = 6;
             Graph graph = new Graph(vertices);
-            graph.addEdge(0, 1, 4);
+            graph.addEdge(0, 1, 5);
             graph.addEdge(0, 2, 3);
             graph.addEdge(1, 2, 1);
             graph.addEdge(1, 3, 2);
             graph.addEdge(2, 3, 4);
             graph.addEdge(3, 4, 2);
             graph.addEdge(4, 5, 6);
-            graph.dijkstra_GetMinDistances(0);
+            graph.dijkstra_PrintPaths(0);
         }
     }
 }

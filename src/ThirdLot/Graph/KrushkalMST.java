@@ -83,7 +83,7 @@ public class KrushkalMST {
             //chain of parent pointers from x upwards through the tree
             // until an element is reached whose parent is itself
             if(parent[vertex]!=vertex)
-                return find(parent, parent[vertex]);;
+                return find(parent, parent[vertex]);
             return vertex;
         }
 

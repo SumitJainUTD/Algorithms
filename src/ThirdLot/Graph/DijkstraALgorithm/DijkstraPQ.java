@@ -1,7 +1,6 @@
 package ThirdLot.Graph.DijkstraALgorithm;
 
 import javafx.util.Pair;
-
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -20,11 +19,6 @@ public class DijkstraPQ {
             this.destination = destination;
             this.weight = weight;
         }
-    }
-
-    static class ResultSet{
-        int vertex;
-        int distance;
     }
 
     static class Graph {
@@ -50,17 +44,13 @@ public class DijkstraPQ {
 
         public void dijkstra_GetMinDistances(int sourceVertex){
 
-            boolean[] inSPT = new boolean[vertices];
-            ResultSet[] resultSet = new ResultSet[vertices];
+            boolean[] SPT = new boolean[vertices];
             //distance used to store the distance of vertex from a source
             int [] distance = new int[vertices];
 
-            //Initialize all the keys to infinity and
-            //initialize resultSet for all the vertices
+            //Initialize all the distance to infinity
             for (int i = 0; i <vertices ; i++) {
                 distance[i] = Integer.MAX_VALUE;
-                resultSet[i] = new ResultSet();
-                resultSet[i].vertex = i;
             }
             //Initialize priority queue
             //override the comparator to do the sorting based keys
@@ -86,8 +76,8 @@ public class DijkstraPQ {
 
                 //extracted vertex
                 int extractedVertex = extractedPair.getValue();
-                if(inSPT[extractedVertex]==false) {
-                    inSPT[extractedVertex] = true;
+                if(SPT[extractedVertex]==false) {
+                    SPT[extractedVertex] = true;
 
                     //iterate through all the adjacent vertices and update the keys
                     LinkedList<Edge> list = adjacencylist[extractedVertex];
@@ -95,7 +85,7 @@ public class DijkstraPQ {
                         Edge edge = list.get(i);
                         int destination = edge.destination;
                         //only if edge destination is not present in mst
-                        if (inSPT[destination] == false) {
+                        if (SPT[destination] == false) {
                             ///check if distance needs an update or not
                             //means check total weight from source to vertex_V is less than
                             //the current distance value, if yes then update the distance
@@ -104,7 +94,6 @@ public class DijkstraPQ {
                             if(currentKey>newKey){
                                 Pair<Integer, Integer> p = new Pair<>(newKey, destination);
                                 pq.offer(p);
-                                resultSet[destination].distance = newKey;
                                 distance[destination] = newKey;
                             }
                         }
@@ -112,14 +101,14 @@ public class DijkstraPQ {
                 }
             }
             //print Shortest Path Tree
-            printDijkstra(resultSet, sourceVertex);
+            printDijkstra(distance, sourceVertex);
         }
 
-        public void printDijkstra(ResultSet[] resultSet, int sourceVertex){
+        public void printDijkstra(int[] distance, int sourceVertex){
             System.out.println("Dijkstra Algorithm: (Adjacency List + Priority Queue)");
             for (int i = 0; i <vertices ; i++) {
                 System.out.println("Source Vertex: " + sourceVertex + " to vertex " +   + i +
-                        " distance: " + resultSet[i].distance);
+                        " distance: " + distance[i]);
             }
         }
 
