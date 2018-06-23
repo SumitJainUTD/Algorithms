@@ -44,7 +44,7 @@ public class MaximumOutputDP {
         return DP[n];
     }
     public static void main(String[] args) {
-        int n = 9;
+        int n = 8;
         MaximumOutputDP m= new MaximumOutputDP();
         long startTime  = System.currentTimeMillis();
         System.out.println("Maximum Output: " + m.print(n));

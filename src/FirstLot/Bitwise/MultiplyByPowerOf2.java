@@ -4,8 +4,7 @@ package FirstLot.Bitwise;
  * Created by sumi1 on 7/11/2017.
  */
 public class MultiplyByPowerOf2 {
-//http://www.codingalpha.com/divide-two-numbers-without-arithmetic-operator-c-program/
-    //code this one as well
+//    Left shift the number n by k.
     public static void multiply(int n, int k){
         System.out.print("Number " + n + " Multiplied by 2^" + k +" is: ");
         System.out.println(n<<k);

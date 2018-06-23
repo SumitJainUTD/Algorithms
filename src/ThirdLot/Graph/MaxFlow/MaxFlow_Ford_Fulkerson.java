@@ -11,14 +11,9 @@ public class MaxFlow_Ford_Fulkerson {
         int vertices;
         int graph[][];
 
-        public Graph(int vertex) {
+        public Graph(int vertex, int[][] graph) {
             this.vertices = vertex;
-            graph = new int[vertex][vertex];
-        }
-
-        public void addEdge(int source, int destination, int weight) {
-            //add edge
-            graph[source][destination] = weight;
+            this.graph = graph;
         }
 
         public int findMaxFlow(int source, int sink) {
@@ -105,16 +100,14 @@ public class MaxFlow_Ford_Fulkerson {
 
     public static void main(String[] args) {
         int vertices = 6;
-        Graph g = new Graph(vertices);
-        g.addEdge(0, 1, 16);
-        g.addEdge(0, 2, 13);
-        g.addEdge(1, 3, 12);
-        g.addEdge(2, 1, 4);
-        g.addEdge(2, 4, 14);
-        g.addEdge(3, 2, 9);
-        g.addEdge(3, 5, 20);
-        g.addEdge(4, 3, 7);
-        g.addEdge(4, 5, 4);
+        int graph[][] = { {0, 10, 8, 0, 0, 0},
+                {0, 0, 5, 5, 0, 0},
+                {0, 4, 0, 0, 10, 0},
+                {0, 0, 9, 0, 10, 3},
+                {0, 0, 0, 6, 0, 14},
+                {0, 0, 0, 0, 0, 0}
+        };
+        Graph g = new Graph(vertices, graph);
         int source = 0;
         int destination = 5;
         int max_flow = g.findMaxFlow(source,destination);
