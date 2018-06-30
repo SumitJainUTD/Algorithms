@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5abe61-fd35-4343-8800-f8db7b271e7d" name="Default" comment="" />
+    <list default="true" id="5f5abe61-fd35-4343-8800-f8db7b271e7d" name="Default" comment="code clean up">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/BitManipulation/SwapNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/DuplicateCaharcters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/FizzBuzz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapBetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapNaive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringReursion.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/Rearrange2N/Rearrange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/Arrays/Rearrange2N/Rearrange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/Arrays/StockMaxProfit/StockMaxProfitBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/Bitwise/DivideByPowerOf2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/Bitwise/MultiplyByPowerOf2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/MISC/FindRemainder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/NotInTH/MISC/SwapNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/EveryElementRepeatedThriceButOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/FindSingleElement/FindSingleElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/FirstDecreasingIndex/FirstDecreasingBinarySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/FirstDecreasingIndex/FirstDecreasingBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/FirstIndexOfZero/FirstIndexOfZeroBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/IsSortedUsingRecursion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/LocalMinima/LocalMinimaBinary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/MajorityElement/Boyer_Moore.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementHashing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementSorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsHashMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingLHM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/RemoveDuplicates/removeDuplicatesUsingSorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1Counting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1UsingIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/SeparateOddAndEven/OddAndEven.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKHashing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKSorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/AddTwoNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/CountBits1ToN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/CountBitsToBeFlipped.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/CountSetBitsInInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/LongestZeroSequence.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/DynamicProgramming/EggDropping/EggDropRecursion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/DynamicProgramming/EggDropping/EggDroppDP.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/DynamicProgramming/test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/TopologicalSort/TopologicalSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Tree/BottomViewOfBT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Tree/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/OtherLaptop/Tree/QueuePack.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,107 +70,117 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Algo2017$SubarrayProductLessThanK.coverage" NAME="SubarrayProductLessThanK Coverage Results" MODIFIED="1514148087546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ThirdLot.SubArraysAndSubSequences.SubarrayProductLessThanK.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Algo2017" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ThreeNumbersSumZeroSorting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.java">
+      <file leaf-file-name="QuadraticEquation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/QuadraticEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreeNumbersSumZeroHashing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.java">
+      <file leaf-file-name="LargestGapNaive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapNaive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="756">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Separate0and1Counting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1Counting.java">
+      <file leaf-file-name="LargestGapBetter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapBetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="30" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="810">
+              <caret line="30" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoNonRepeatingXOR.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.java">
+      <file leaf-file-name="SwapNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/BitManipulation/SwapNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoNonRepeatingHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.java">
+      <file leaf-file-name="ReverseNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="729">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoNonRepeatingSorting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.java">
+      <file leaf-file-name="ReverseNumberRecursion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+            <state relative-caret-position="756">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Separate0and1UsingIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1UsingIndex.java">
+      <file leaf-file-name="DuplicateCaharcters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/DuplicateCaharcters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseStringReursion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringReursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OddAndEven.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/SeparateOddAndEven/OddAndEven.java">
+      <file leaf-file-name="PrintEquation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/PrintEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EggDroppDP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDroppDP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EggDropRecursion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDropRecursion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -125,6 +195,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dis</find>
+      <find>Sys</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -133,68 +212,69 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsBruteForce.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsHashMap.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingLHM.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingSet.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/removeDuplicatesUsingSorting.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1UsingIndex.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/CheckSortUsingRecursion.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/EveryElementRepeatedThriceButOne.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstNonRepeatingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstRepeatingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/LastNonRepeatingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/LastRepeatingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/CountBits1ToN.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/CountBitsToBeFlipped.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/CountSetBitsInInteger.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDroppDP.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDropRecursion.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/TopologicalSort/TopologicalSort.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Tree/BottomViewOfBT.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/Arrays/StockSingleSell/StockSingleSellDP.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/Bitwise/CountOnesInNumber.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/MISC/ValidateSquare.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/Bitwise/MultiplyByPowerOf2.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/Bitwise/DivideByPowerOf2.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/MISC/KPowerN/KpowerN_OnlyPositive.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/MISC/KPowerN/KpowerN.java" />
-        <option value="$PROJECT_DIR$/src/Bitwise/CountOnesInNumber.java" />
-        <option value="$PROJECT_DIR$/src/MISC/ValidateSquare.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstDecreasingIndex/FirstDecreasingBruteForce.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstIndexOfZero/FirstIndexOfZeroBruteForce.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstDecreasingIndex/FirstDecreasingBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/NotInTH/MISC/SwapNumbers.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/IsSortedUsingRecursion.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/LongestZeroSequence.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/LocalMinima/LocalMinimaBinary.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/MajorityElement/Boyer_Moore.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKSorting.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKHashing.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1Counting.java" />
-        <option value="$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/SeparateOddAndEven/OddAndEven.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/MaximumOccurringCharacter.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigits.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/TakeUserInput.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/CompareStrings.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/FactorialRecursion.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/Factorialterative.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/FactorialIterative.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/CheckTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfTriangleCoordinates.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfCircle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/CircumferenceOfCircle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfTriangleBaseHeight.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfRectangle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/DistinctPermutations.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/RemoveVowels.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/CountAllSetBits.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/PrintIPAddress.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/FibonacchiSeries.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/FibonacciSeries.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2LogMethod.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2RemainderMethod.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOfTwoBitMethod.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/FloydTriangle.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/LargestSmallestWord.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/FirstNPrimeNumbers.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/CheckPrimeNumber.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logn.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logrn.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/LogrnBuiltIn.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/LinearSearch.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfArrayElements.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitRecursion.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitTricky.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/MinimumGuesses.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/LargestElementInArray.java" />
+        <option value="$PROJECT_DIR$/src/MISC/FindRemainder.java" />
+        <option value="$PROJECT_DIR$/src/FirstLot/Bitwise/MultiplyByPowerOf2.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/LeftRightShift.java" />
+        <option value="$PROJECT_DIR$/src/SecondLot/Bitwise/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/PrintEquation.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/QuadraticEquation.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapNaive.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapBetter.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/BitManipulation/SwapNumbers.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumber.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/DuplicateCaharcters.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringReursion.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1924" />
+    <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -208,6 +288,102 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algo2017">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algo2017">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algo2017">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ThirdLot">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algo2017">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ThirdLot">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MISC">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algo2017">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ThirdLot">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="MISC">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ReverseNumber">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,7 +410,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
+              <option name="myItemId" value="ThirdLot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,37 +428,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
+              <option name="myItemId" value="ThirdLot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EggDropping" />
+              <option name="myItemId" value="Tries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,37 +450,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
+              <option name="myItemId" value="ThirdLot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bitwise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bitwise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwoNonRepeatingNumbers" />
+              <option name="myItemId" value="Graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,37 +472,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
+              <option name="myItemId" value="ThirdLot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algo2017" />
+              <option name="myItemId" value="Graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OtherLaptop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindSingleElement" />
+              <option name="myItemId" value="GraphImplementation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,16 +500,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="D:/LearnDropwizard/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Algo2017\src\ThirdLot" />
       <recent name="D:\Algo2017\src\NotInTH\Arrays\StockSingleSell" />
       <recent name="D:\Algo2017\src\NotInTH" />
     </key>
@@ -424,15 +525,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OddAndEven">
-    <configuration default="false" name="ThreeNumbersSumKHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ReverseStringReursion">
+    <configuration default="false" name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OtherLaptop.ArrayProblems.ThreeNumbersSumK.*" />
+          <option name="PATTERN" value="ThirdLot.MISC.ReverseNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OtherLaptop.ArrayProblems.ThreeNumbersSumK.ThreeNumbersSumKHashing" />
+      <option name="MAIN_CLASS_NAME" value="ThirdLot.MISC.ReverseNumber.ReverseNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -445,14 +546,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ThreeNumbersSumZeroHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReverseNumberRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OtherLaptop.ArrayProblems.ThreeNumbersSumZero.*" />
+          <option name="PATTERN" value="ThirdLot.MISC.ReverseNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OtherLaptop.ArrayProblems.ThreeNumbersSumZero.ThreeNumbersSumZeroHashing" />
+      <option name="MAIN_CLASS_NAME" value="ThirdLot.MISC.ReverseNumber.ReverseNumberRecursion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -465,14 +566,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Separate0and1UsingIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DuplicateCaharcters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OtherLaptop.ArrayProblems.Separate0and1.*" />
+          <option name="PATTERN" value="ThirdLot.MISC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OtherLaptop.ArrayProblems.Separate0and1.Separate0and1UsingIndex" />
+      <option name="MAIN_CLASS_NAME" value="ThirdLot.MISC.DuplicateCaharcters" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -485,14 +586,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Separate0and1Counting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OtherLaptop.ArrayProblems.Separate0and1.*" />
+          <option name="PATTERN" value="ThirdLot.MISC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OtherLaptop.ArrayProblems.Separate0and1.Separate0and1Counting" />
+      <option name="MAIN_CLASS_NAME" value="ThirdLot.MISC.FizzBuzz" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -505,14 +606,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="OddAndEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReverseStringReursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OtherLaptop.ArrayProblems.SeparateOddAndEven.*" />
+          <option name="PATTERN" value="ThirdLot.MISC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OtherLaptop.ArrayProblems.SeparateOddAndEven.OddAndEven" />
+      <option name="MAIN_CLASS_NAME" value="ThirdLot.MISC.ReverseStringReursion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -730,19 +831,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ThreeNumbersSumKHashing" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreeNumbersSumZeroHashing" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Separate0and1UsingIndex" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Separate0and1Counting" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OddAndEven" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ReverseNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReverseNumberRecursion" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DuplicateCaharcters" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FizzBuzz" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReverseStringReursion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.OddAndEven" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Separate0and1UsingIndex" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Separate0and1Counting" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreeNumbersSumZeroHashing" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreeNumbersSumKHashing" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReverseStringReursion" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FizzBuzz" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DuplicateCaharcters" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseNumberRecursion" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReverseNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -757,6 +858,126 @@
       <option name="presentableId" value="Default" />
       <updated>1497229322185</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minimum Jumps to reach end">
+      <created>1507416762510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507416762510</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code clean up">
+      <created>1507503531286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507503531287</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sub arrays problems">
+      <created>1514002195844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1514002195844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Graph Basics">
+      <created>1514002583882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514002583882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Deque Example">
+      <created>1514234045885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514234045886</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Subarray and subsequences">
+      <created>1514234129592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514234129592</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sliding window problem">
+      <created>1514325162530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514325162531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Minimum Copy paste code">
+      <created>1514608452425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1514608452425</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Snake and ladder problem">
+      <created>1515477758719</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1515477758719</updated>
+    </task>
+    <task id="LOCAL-00010" summary="programs">
+      <created>1518143503326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1518143503326</updated>
+    </task>
+    <task id="LOCAL-00011" summary="code clean up">
+      <created>1518143730042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1518143730042</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MST">
+      <created>1518590784652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1518590784652</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MST push">
+      <created>1519797822907</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519797822907</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Graph - Prim's 4 approaches , Dijkstra">
+      <created>1520916255426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1520916255426</updated>
+    </task>
+    <task id="LOCAL-00015" summary="dijkstra">
+      <created>1522299200651</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1522299200651</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dijkstra&#10;max flow">
+      <created>1525320734572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1525320734572</updated>
+    </task>
+    <task id="LOCAL-00017" summary="code clean up">
+      <created>1529778229767</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529778229767</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -769,47 +990,67 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275401" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36973834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30178759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24426605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41638225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38368985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minimum Jumps to reach end" />
+    <MESSAGE value="Sub arrays problems" />
+    <MESSAGE value="Graph Basics" />
+    <MESSAGE value="Deque Example" />
+    <MESSAGE value="Subarray and subsequences" />
+    <MESSAGE value="sliding window problem" />
+    <MESSAGE value="Minimum Copy paste code" />
+    <MESSAGE value="Snake and ladder problem" />
+    <MESSAGE value="programs" />
+    <MESSAGE value="MST" />
+    <MESSAGE value="MST push" />
+    <MESSAGE value="Graph - Prim's 4 approaches , Dijkstra" />
+    <MESSAGE value="dijkstra" />
+    <MESSAGE value="dijkstra&#10;max flow" />
+    <MESSAGE value="code clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="code clean up" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arrays/Rearrange2N/Rearrange.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/SecondLot/ArrayProblems/Rearrange2N/Rearrange.java</url>
+          <line>18</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -830,8 +1071,245 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsRecursion.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FirstLot/Arrays/Rearrange2N/Rearrange.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/TextJustification/TextJustification.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MinimumCopyPaste/MinimumCopyPaste.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MinimumCopyPaste/MinimumCopyPasteDP.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MaximumOutput/MaximumOutputRecursion.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MaximumOutput/MaximumOutputDP.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DFS/GraphDFS/Graph.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/SnakeAndLadder/SnakeAndLadder.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/SnakeAndLadder/SnakeAndLadder.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/TopologicalSort/TopologicalSort.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/TopologicalSort/TopologicalSort.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DGCycle.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DGCycle.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DGCycle.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DirectedGraphCycleColors.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DirectedGraphCycleColors.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/NonReachableVertices/NonReachableVertices.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/CountPaths/CountPaths.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/KrushkalMST.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MaximumOutput/MaximumOutputDP.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/DifferentWaysToAddParentheses/DifferentWaysToAddParentheses.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_MinCut.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/BipartiteGraphs/CheckBiPartite.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ReversePairsSorted.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ReversePairsUnsorted.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/Graph/FindNearestBike/FindNearestBike.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MISC/Graph/Graph.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigits.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logn.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThirdLot/MISC/MinimumGuesses.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SecondLot/Bitwise/AddTwoNumbers.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -840,410 +1318,396 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Bitwise/RightMostUnsetBit.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/CheckTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="232">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/Arrays/StockMaxProfit/StockMaxProfitBruteForce.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfTriangleCoordinates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/Arrays/Rearrange2N/Rearrange.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Circle/CircumferenceOfCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="232">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfTriangleBaseHeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellBruteForce.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/FactorialIterative.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/DistinctPermutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="60" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellDandC.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/RemoveVowels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="394">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellDP.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/PrintIPAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/MaximumSubArray/MaximumSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/FibonacciSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="259">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/CountAllSetBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2LogMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2RemainderMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOfTwoBitMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/FloydTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/Bitwise/MultiplyByPowerOf2.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestSmallestWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="421">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/Bitwise/DivideByPowerOf2.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/FirstNPrimeNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="313">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MISC/KPowerN/KpowerN_OnlyPositive.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/CheckPrimeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logrn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/Logn/LogrnBuiltIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LinearSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfArrayElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MISC/KPowerN/KpowerN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MISC/KPowerN/KPowerN_Naive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bitwise/CountOnesInNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitTricky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/MinimumGuesses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestElementInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MISC/FindRemainder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MISC/ValidateSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/MISC/FindRemainder.java">
+    <entry file="file://$PROJECT_DIR$/src/FirstLot/Bitwise/DivideByPowerOf2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/CountBits1ToN.java">
+    <entry file="file://$PROJECT_DIR$/src/Bitwise/CountOnesInNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/CountSetBitsInInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/FirstLot/Bitwise/MultiplyByPowerOf2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="432">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/FindSingleElement/FindSingleElement.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/LRU/LRU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/FirstDecreasingIndex/FirstDecreasingBruteForce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="15" column="103" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/FirstIndexOfZero/FirstIndexOfZeroBruteForce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/FirstDecreasingIndex/FirstDecreasingBinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsBruteForce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="189">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/NutsAndBolts/NutsAndBoltsHashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/LRU/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="2484">
+          <caret line="94" column="15" lean-forward="false" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotInTH/MISC/SwapNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/Graph/MISC/LeftRightShift.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="675">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/CheckSortUsingRecursion.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondLot/Bitwise/CountBits1ToN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/IsSortedUsingRecursion.java">
+    <entry file="file://$PROJECT_DIR$/src/SecondLot/Bitwise/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="702">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/QuadraticEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="567">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingSet.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/PrintEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingLHM.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapNaive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="756">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/LongestZeroSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapBetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="810">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/LocalMinima/LocalMinimaBinary.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="756">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementBruteForce.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="729">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementHashing.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/BitManipulation/SwapNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/MajorityElement/MajorityElementSorting.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/DuplicateCaharcters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/MajorityElement/Boyer_Moore.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.java">
+    <entry file="file://$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringReursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumK/ThreeNumbersSumKHashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1Counting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/Separate0and1/Separate0and1UsingIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/ArrayProblems/SeparateOddAndEven/OddAndEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDroppDP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OtherLaptop/DynamicProgramming/EggDropping/EggDropRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
