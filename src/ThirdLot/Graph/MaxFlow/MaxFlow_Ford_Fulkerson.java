@@ -3,9 +3,6 @@ package ThirdLot.Graph.MaxFlow;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/**
- * Created by sumi1 on 4/7/2018.
- */
 public class MaxFlow_Ford_Fulkerson {
     static class Graph {
         int vertices;

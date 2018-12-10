@@ -54,6 +54,7 @@ public class PrintAllTopologicalSorts {
         int vertices = 7;
         Graph graph = new Graph(vertices);
         graph.addEgde(0, 1);
+        graph.addEgde(0, 2);
         graph.addEgde(1, 2);
 //        graph.addEdge(2, 3);
         graph.addEgde(4, 5);
