@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5abe61-fd35-4343-8800-f8db7b271e7d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Published/Graph/TopologicalSort/TopologicalSort.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +99,8 @@
       <file leaf-file-name="PrintEquation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -897,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544420294265</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="deleted unwanted files">
+      <created>1546201252452</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546201252452</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -994,7 +1000,8 @@
     <MESSAGE value="dijkstra&#10;max flow" />
     <MESSAGE value="code clean up" />
     <MESSAGE value="more problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="more problems" />
+    <MESSAGE value="deleted unwanted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted unwanted files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1713,8 +1720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
