@@ -2,475 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5abe61-fd35-4343-8800-f8db7b271e7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Arrays/Median/MedianBinary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Arrays/Median/MedianBruteForce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Arrays/ValidBrackets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Arrays/ValidMultipleParentheses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Bitwise/PrintAllBinary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Bitwise/nBits.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/RemovesBoxes/RemoveBoxesDP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/RemovesBoxes/RemovesBoxRecursion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/StrangePrinter/StrangePrinterDP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/StrangePrinter/StrangePrinterRecursion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/LinkedList/MergeKSortedLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/MISC/PrintNumberWithSign.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/String/PrintAllSequences/PrintAllSequences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/String/PrintAllSequences/PrintAllSubsequences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/String/ValidateOutputString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Tree/ListAtDepthBtree/ListAtDepthBtree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Published/Tree/readMe" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/CheckDuplicates/CheckDuplicates.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/CheckDuplicates/CheckDuplicatesUsingHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/CheckDuplicates/CheckDuplicatesUsingSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/CheckDuplicates/CheckDuplicatesUsingTwoLoops.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/FirstDecreasingIndex/FirstDecreasingBinarySearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/FirstDecreasingIndex/FirstDecreasingBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/FirstIndexOfZero/FirstIndexOfZeroBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/IsSortedUsingRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/LastNonRepeatingCharacter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/LocalMax/LocalMaxORMin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/LocalMinima/LocalMinimaBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MajorityElement/Boyer_Moore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MajorityElement/MajorityElementBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MajorityElement/MajorityElementHashing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MajorityElement/MajorityElementSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxDifference/MaxDifferenceBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxDifference/MaxDifferenceDandC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxDifference/MaxDifferenceDynamicProgramming.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxRepeaingElement/MaxRepeatingBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxRepeaingElement/MaxRepeatingElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxRepeaingElement/MaxRepeatingUsingHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaxRepeaingElement/MaxRepeatingUsingSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/MaximumSubArray/MaximumSubArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/Separate0and1/Separate0and1Counting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/Separate0and1/Separate0and1UsingIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/SeparateOddAndEven/OddAndEven.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/StockSingleSell/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/StockSingleSell/StockSingleSellBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/StockSingleSell/StockSingleSellDP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/StockSingleSell/StockSingleSellDandC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/SumCloseToZero/SumCloseToZero.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumK/ThreeNumbersSumKHashing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumK/ThreeNumbersSumKSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingByFormula.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingElementsByIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Arrays/TwoRepeatedElements/TwoRepeatingXOR.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Bitwise/CountOnesInNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Bitwise/RightMostSetBit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/Bitwise/RightMostUnsetBit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/Arrays/Rearrange2N/Rearrange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/Arrays/Rearrange2N/RearrangeBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/Arrays/StockMaxProfit/StockMaxProfitBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/Bitwise/DivideByPowerOf2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/Bitwise/MultiplyByPowerOf2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/ArrayProblems/111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/ArrayProblems/Median/MedianBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/21212" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsDP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsDPBottomUp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/RemovesBoxes/RemoveBoxesDP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/RemovesBoxes/RemovesBoxRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/StrangePrinter/StrangePrinterDP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/FirstLot/SecondLot/DP/StrangePrinter/StrangePrinterRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ListAtDepthBtree/ListAtDepthBtree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ListAtDepthBtree/ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ListAtDepthBtree/Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/FindRemainder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/Graph/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/KPowerN/KPowerN_Naive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/KPowerN/KpowerN.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/KPowerN/KpowerN_OnlyPositive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/SwapNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MISC/ValidateSquare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MergeTwoLinkList/LinkedListT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MergeTwoLinkList/MergeTwoLinkList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/MergeTwoLinkList/Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/PermutationStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/EveryElementRepeatedThriceButOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/FindSingleElement/FindSingleElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/NutsAndBolts/NutsAndBoltsBruteForce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/NutsAndBolts/NutsAndBoltsHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/Rearrange2N/Rearrange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicates.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingLHM.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/ArrayProblems/RemoveDuplicates/removeDuplicatesUsingSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/CountBitsToBeFlipped.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/CountSetBitsInInteger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/LongestZeroSequence.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/DynamicProgramming/EggDropping/EggDropRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/DynamicProgramming/EggDropping/EggDroppDP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/DynamicProgramming/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/PrintAllBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/TopologicalSort/TopologicalSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Tree/BottomViewOfBT.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Tree/Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/Tree/QueuePack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/SecondLot/nBits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/CountPaths/CountPaths$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/CountPaths/CountPaths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DAGCycle/DGCycle$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DAGCycle/DGCycle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DAGCycle/DirectedGraphCycleColors$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DAGCycle/DirectedGraphCycleColors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DFS/DisconnetedGraphDFS$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DFS/DisconnetedGraphDFS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DFS/GraphDFS/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DFS/GraphDFSRecursion$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DFS/GraphDFSRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraAdjacencyMatrix$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraAdjacencyMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPQ$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPQ$Graph$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPQ$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPQ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths$Graph$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraTreeSet$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraTreeSet$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraTreeSet$PairComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraTreeSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap$HeapNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap$MinHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindNearestBike/BuildingBlock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindNearestBike/FindNearestBike.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSet$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSet$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSetFindCycle$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSetFindCycle$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/DisjointSetFindCycle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSet$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSet$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSet$SubSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSetFindCycle$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSetFindCycle$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSetFindCycle$SubSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/FindUnion/OptimizedDisjointSetFindCycle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/GraphBFS/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/GraphImplementation/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/GraphImplementation/GraphAjdacencyMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/GraphPrintAllPaths/Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/GraphPrintAllPaths/GraphPrintAllPaths.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/KrushkalMST$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/KrushkalMST$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/KrushkalMST.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MISC/ConvertToBase3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MISC/LeftRightShift.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MISC/ReplaceVowels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MISC/ReversePairsSorted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MISC/ReversePairsUnsorted.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson_List$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson_List$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson_List.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_MinCut$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/MaxFlow/MaxFlow_MinCut.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/NonReachableVertices/NonReachableVertices$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/NonReachableVertices/NonReachableVertices.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmAdjacencyMatrix$Graph$ResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmAdjacencyMatrix$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmAdjacencyMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter$Graph$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter$ResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap$HeapNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap$MinHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap$ResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ$Graph$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ$HeapNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ$ResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrintAllTopologicalSorts/PrintAllTopologicalSorts$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/PrintAllTopologicalSorts/PrintAllTopologicalSorts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/SoftwareInstallation/SoftwareInstallation$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/SoftwareInstallation/SoftwareInstallation$Node.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/SoftwareInstallation/SoftwareInstallation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/TopologicalSort/TopologicalSort$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/TopologicalSort/TopologicalSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/UndirectedGraphCycle/UndirectedGraphCycle$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/UndirectedGraphCycle/UndirectedGraphCycle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/WeightedGraph/WeightedGraph$Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/WeightedGraph/WeightedGraph$Graph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Graph/WeightedGraph/WeightedGraph.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/AreaOfRectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/AreaOfTriangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/AreaOfTriangleCoordinates.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/BitManipulation/SwapNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/CheckPrimeNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/CheckTriangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Circle/AreaOfCircle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Circle/AreaOfTriangleBaseHeight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Circle/CircumferenceOfCircle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/CompareStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/CountAllSetBits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/DistinctPermutations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/DuplicateCaharcters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Factorial/FactorialIterative.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Factorial/FactorialRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/FibonacciSeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/FirstNPrimeNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/FizzBuzz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/FloydTriangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/LargestElementInArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/LargestGap/LargestGapBetter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/LargestGap/LargestGapNaive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/LargestSmallestWord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Logn/Logn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Logn/Logrn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/Logn/LogrnBuiltIn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/PowerOf2/PowerOf2LogMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/PowerOf2/PowerOf2RemainderMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/PowerOf2/PowerOfTwoBitMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/PrintIPAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/QuadraticEquation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/RemoveVowels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/ReverseNumber/ReverseNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/ReverseString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/ReverseStringReursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/SumOfDigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/SumOfDigitsTillSingleDigit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/PrintEquation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitRecursion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitTricky.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/Pair/PairExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SlidingWindowMaximum/SlidingWindowMaximumNaive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SlidingWindowMaximum/SlidingWindowMaximum_Deque.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SnakeAndLadder/SnakeAndLadder$Vertex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SnakeAndLadder/SnakeAndLadder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/PrintAllSubArrays.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/PrintAllSubStrings/PrintAllSubStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/PrintArraySubSequences/PrintArraySubSequences.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/PrintStringSubSequences/PrintStringSubSequences.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/SubArraysSumProblem/SubArraySum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK_Better.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algo2017/ThirdLot/TextJustification/TextJustification.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MISC/KPowerN/KPowerN_Naive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MISC/KPowerN/KpowerN.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MISC/KPowerN/KpowerN_OnlyPositive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/Rearrange2N/Rearrange.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Sep2018/ValidateOutputString.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/TopologicalSort/TopologicalSort.java" afterPath="$PROJECT_DIR$/src/ThirdLot/Graph/TopologicalSort/TopologicalSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/CheckDuplicates/CheckDuplicates.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/CheckDuplicates/CheckDuplicates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/CheckDuplicates/CheckDuplicatesUsingHashMap.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/CheckDuplicates/CheckDuplicatesUsingHashMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/CheckDuplicates/CheckDuplicatesUsingSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/CheckDuplicates/CheckDuplicatesUsingSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/CheckDuplicates/CheckDuplicatesUsingTwoLoops.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/CheckDuplicates/CheckDuplicatesUsingTwoLoops.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/EveryElementsRepeatedButOne/EveryElementsRepeatedButOne.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/FindSingleElement/FindSingleElement.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FindSingleElement/FindSingleElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/FirstDecreasingIndex/FirstDecreasingBinarySearch.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FirstDecreasingIndex/FirstDecreasingBinarySearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/FirstDecreasingIndex/FirstDecreasingBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FirstDecreasingIndex/FirstDecreasingBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FirstIndexOfZero/FirstIndexOfZeroBinarySearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/FirstIndexOfZero/FirstIndexOfZeroBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FirstIndexOfZero/FirstIndexOfZeroBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/IsSortedUsingRecursion.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/IsSortedUsingRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/LastNonRepeatingCharacter.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LastNonRepeatingCharacter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/LocalMax/LocalMaxORMin.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LocalMax/LocalMaxORMin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/LocalMinima/LocalMinimaBinary.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LocalMinima/LocalMinimaBinary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MajorityElement/Boyer_Moore.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MajorityElement/Boyer_Moore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MajorityElement/MajorityElementBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MajorityElement/MajorityElementBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MajorityElement/MajorityElementHashing.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MajorityElement/MajorityElementHashing.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MajorityElement/MajorityElementSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MajorityElement/MajorityElementSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxDifference/MaxDifferenceBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxDifference/MaxDifferenceBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxDifference/MaxDifferenceDandC.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxDifference/MaxDifferenceDandC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxDifference/MaxDifferenceDynamicProgramming.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxDifference/MaxDifferenceDynamicProgramming.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxRepeaingElement/MaxRepeatingBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxRepeaingElement/MaxRepeatingBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxRepeaingElement/MaxRepeatingElement.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxRepeaingElement/MaxRepeatingElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxRepeaingElement/MaxRepeatingUsingHashMap.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxRepeaingElement/MaxRepeatingUsingHashMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaxRepeaingElement/MaxRepeatingUsingSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaxRepeaingElement/MaxRepeatingUsingSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/MaximumSubArray/MaximumSubArray.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/MaximumSubArray/MaximumSubArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/Separate0and1/Separate0and1Counting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/Separate0and1/Separate0and1Counting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/Separate0and1/Separate0and1UsingIndex.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/Separate0and1/Separate0and1UsingIndex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/SeparateOddAndEven/OddAndEven.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SeparateOddAndEven/OddAndEven.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/StockSingleSell/StockSingleSellBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellDP.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/StockSingleSell/StockSingleSellDP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/StockSingleSell/StockSingleSellDandC.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/StockSingleSell/StockSingleSellDandC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/SumCloseToZero/SumCloseToZero.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SumCloseToZero/SumCloseToZero.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumK/ThreeNumbersSumKBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumK/ThreeNumbersSumKHashing.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumK/ThreeNumbersSumKHashing.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumK/ThreeNumbersSumKSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumK/ThreeNumbersSumKSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroHashing.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeNumbersSumZero/ThreeNumbersSumZeroSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingByFormula.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingByFormula.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingElementsByIndex.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingElementsByIndex.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingHashMap.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingHashMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Arrays/TwoRepeatedElements/TwoRepeatingXOR.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoRepeatedElements/TwoRepeatingXOR.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bitwise/CountOnesInNumber.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/CountOnesInNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bitwise/RightMostSetBit.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/RightMostSetBit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bitwise/RightMostUnsetBit.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/RightMostUnsetBit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/Arrays/Rearrange2N/Rearrange.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/Rearrange2N/Rearrange.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/Arrays/Rearrange2N/RearrangeBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/Rearrange2N/RearrangeBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/Arrays/StockMaxProfit/StockMaxProfitBruteForce.java" afterPath="$PROJECT_DIR$/src/TODO/StockMaxProfitBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/Bitwise/DivideByPowerOf2.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/DivideByPowerOf2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/Bitwise/MultiplyByPowerOf2.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/MultiplyByPowerOf2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsDP.java" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/MinimumJumps/MinimumJumpsDP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsDPBottomUp.java" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/MinimumJumps/MinimumJumpsDPBottomUp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FirstLot/SecondLot/DP/MinimumJumps/MinimumJumpsRecursion.java" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/MinimumJumps/MinimumJumpsRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MISC/FindRemainder.java" afterPath="$PROJECT_DIR$/src/Published/FindRemainder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MISC/Graph/Graph.java" afterPath="$PROJECT_DIR$/src/Published/Graph/GraphDFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MISC/SwapNumbers.java" afterPath="$PROJECT_DIR$/src/Published/SwapNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MISC/ValidateSquare.java" afterPath="$PROJECT_DIR$/src/Published/ValidateSquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MergeTwoLinkList/MergeTwoLinkList.java" afterPath="$PROJECT_DIR$/src/Published/LinkedList/MergeTwoLinkList/MergeTwoLinkList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PermutationStrings.java" afterPath="$PROJECT_DIR$/src/Published/String/PermutationStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/EveryElementRepeatedThriceButOne.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/EveryElementRepeatedThriceButOne.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/NutsAndBolts/NutsAndBoltsBruteForce.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/NutsAndBolts/NutsAndBoltsBruteForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/NutsAndBolts/NutsAndBoltsHashMap.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/NutsAndBolts/NutsAndBoltsHashMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicates.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/RemoveDuplicates/RemoveDuplicates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingLHM.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/RemoveDuplicates/RemoveDuplicatesUsingLHM.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/RemoveDuplicates/RemoveDuplicatesUsingSet.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/RemoveDuplicates/RemoveDuplicatesUsingSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/ArrayProblems/RemoveDuplicates/removeDuplicatesUsingSorting.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/RemoveDuplicates/removeDuplicatesUsingSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/CountBitsToBeFlipped.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/CountBitsToBeFlipped.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/CountSetBitsInInteger.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/CountSetBitsInInteger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/LongestZeroSequence.java" afterPath="$PROJECT_DIR$/src/TODO/LongestZeroSequence.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingHashMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingSorting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/TwoNonRepeatingNumbers/TwoNonRepeatingXOR.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/DynamicProgramming/EggDropping/EggDropRecursion.java" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/EggDropping/EggDropRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/DynamicProgramming/EggDropping/EggDroppDP.java" afterPath="$PROJECT_DIR$/src/Published/DynamicProgramming/EggDropping/EggDroppDP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/DynamicProgramming/test" afterPath="$PROJECT_DIR$/src/Published/LinkedList/ReadMe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/TopologicalSort/TopologicalSort.java" afterPath="$PROJECT_DIR$/src/Published/Graph/TopologicalSort/TopologicalSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SecondLot/Tree/BottomViewOfBT.java" afterPath="$PROJECT_DIR$/src/Published/Tree/BottomViewOfTree/BottomViewOfBT.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/DistinctArray.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/DistinctArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/PrintAllUniqueElementsInArray.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/PrintAllUniqueElementsInArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/PrintSortedDistinctElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/PrintSortedDistinctElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/ProductOfDistinctElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ProductOfDistinctElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/SumOfDistinctElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SumOfDistinctElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/ThirdLargestElement.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThirdLargestElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/ThirdSmallestElement.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThirdSmallestElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/ThreeSmallestElement.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ThreeSmallestElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/TopThreeLargestElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TopThreeLargestElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/TopTwoLargestElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TopTwoLargestElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Sep2018/TwoLeastElements.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/TwoLeastElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/CountPaths/CountPaths.java" afterPath="$PROJECT_DIR$/src/Published/Graph/CountPaths/CountPaths.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DGCycle.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DAGCycle/DGCycle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DAGCycle/DirectedGraphCycleColors.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DAGCycle/DirectedGraphCycleColors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DFS/DisconnetedGraphDFS.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DFS/DisconnetedGraphDFS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DFS/GraphDFS/Graph.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DFS/GraphDFS/Graph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DFS/GraphDFSRecursion.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DFS/GraphDFSRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraAdjacencyMatrix.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DijkstraALgorithm/DijkstraAdjacencyMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraPQ.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DijkstraALgorithm/DijkstraPQ.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraPrintPaths.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DijkstraALgorithm/DijkstraPrintPaths.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraTreeSet.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DijkstraALgorithm/DijkstraTreeSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/DijkstraALgorithm/DijkstraUsingMinHeap.java" afterPath="$PROJECT_DIR$/src/Published/Graph/DijkstraALgorithm/DijkstraUsingMinHeap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/FindNearestBike/FindNearestBike.java" afterPath="$PROJECT_DIR$/src/Published/Graph/FindNearestBike/FindNearestBike.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/FindUnion/DisjointSet.java" afterPath="$PROJECT_DIR$/src/Published/Graph/FindUnion/DisjointSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/FindUnion/DisjointSetFindCycle.java" afterPath="$PROJECT_DIR$/src/Published/Graph/FindUnion/DisjointSetFindCycle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/FindUnion/OptimizedDisjointSet.java" afterPath="$PROJECT_DIR$/src/Published/Graph/FindUnion/OptimizedDisjointSet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/FindUnion/OptimizedDisjointSetFindCycle.java" afterPath="$PROJECT_DIR$/src/Published/Graph/FindUnion/OptimizedDisjointSetFindCycle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/GraphBFS/Graph.java" afterPath="$PROJECT_DIR$/src/Published/Graph/GraphBFS/Graph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/GraphImplementation/Graph.java" afterPath="$PROJECT_DIR$/src/Published/Graph/GraphImplementation/Graph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/GraphImplementation/GraphAjdacencyMatrix.java" afterPath="$PROJECT_DIR$/src/Published/Graph/GraphImplementation/GraphAjdacencyMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/GraphPrintAllPaths/GraphPrintAllPaths.java" afterPath="$PROJECT_DIR$/src/Published/Graph/GraphPrintAllPaths/GraphPrintAllPaths.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/KrushkalMST.java" afterPath="$PROJECT_DIR$/src/Published/Graph/KrushkalMST.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ConvertToBase3.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/ConvertToBase3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/LeftRightShift.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/LeftRightShift.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ReplaceVowels.java" afterPath="$PROJECT_DIR$/src/Published/String/ReplaceVowels.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ReversePairsSorted.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ReversePairsSorted.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MISC/ReversePairsUnsorted.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ReversePairsUnsorted.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson.java" afterPath="$PROJECT_DIR$/src/Published/Graph/MaxFlow/MaxFlow_Ford_Fulkerson.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_Ford_Fulkerson_List.java" afterPath="$PROJECT_DIR$/src/Published/Graph/MaxFlow/MaxFlow_Ford_Fulkerson_List.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/MaxFlow/MaxFlow_MinCut.java" afterPath="$PROJECT_DIR$/src/Published/Graph/MaxFlow/MaxFlow_MinCut.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/NonReachableVertices/NonReachableVertices.java" afterPath="$PROJECT_DIR$/src/Published/Graph/NonReachableVertices/NonReachableVertices.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmAdjacencyMatrix.java" afterPath="$PROJECT_DIR$/src/Published/Graph/PrimsAlgorithm/PrimAlgorithmAdjacencyMatrix.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter.java" afterPath="$PROJECT_DIR$/src/Published/Graph/PrimsAlgorithm/PrimAlgorithmPQBetter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimUsingMinHeap.java" afterPath="$PROJECT_DIR$/src/Published/Graph/PrimsAlgorithm/PrimUsingMinHeap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/PrimsAlgorithm/PrimsPQ.java" afterPath="$PROJECT_DIR$/src/Published/Graph/PrimsAlgorithm/PrimsPQ.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/PrintAllTopologicalSorts/PrintAllTopologicalSorts.java" afterPath="$PROJECT_DIR$/src/Published/Graph/PrintAllTopologicalSorts/PrintAllTopologicalSorts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/SoftwareInstallation/SoftwareInstallation.java" afterPath="$PROJECT_DIR$/src/Published/Graph/SoftwareInstallation/SoftwareInstallation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/UndirectedGraphCycle/UndirectedGraphCycle.java" afterPath="$PROJECT_DIR$/src/Published/Graph/UndirectedGraphCycle/UndirectedGraphCycle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Graph/WeightedGraph/WeightedGraph.java" afterPath="$PROJECT_DIR$/src/Published/Graph/WeightedGraph/WeightedGraph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfRectangle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/AreaOfRectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfTriangle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/AreaOfTriangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/AreaOfTriangleCoordinates.java" afterPath="$PROJECT_DIR$/src/Published/Maths/AreaOfTriangleCoordinates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ArrayRotation.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/ArrayRotation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/BitManipulation/SwapNumbers.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/SwapNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/CheckPrimeNumber.java" afterPath="$PROJECT_DIR$/src/Published/Maths/CheckPrimeNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/CheckTriangle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/CheckTriangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfCircle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Circle/AreaOfCircle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/AreaOfTriangleBaseHeight.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Circle/AreaOfTriangleBaseHeight.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Circle/CircumferenceOfCircle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Circle/CircumferenceOfCircle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/CompareStrings.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/CompareStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/CountAllSetBits.java" afterPath="$PROJECT_DIR$/src/Published/Bitwise/CountAllSetBits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/DistinctPermutations.java" afterPath="$PROJECT_DIR$/src/Published/String/DistinctPermutations.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/DuplicateCaharcters.java" afterPath="$PROJECT_DIR$/src/Published/MISC/DuplicateCaharcters.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/FactorialIterative.java" afterPath="$PROJECT_DIR$/src/Published/Number/Factorial/FactorialIterative.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Factorial/FactorialRecursion.java" afterPath="$PROJECT_DIR$/src/Published/Number/Factorial/FactorialRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/FibonacciSeries.java" afterPath="$PROJECT_DIR$/src/Published/Maths/FibonacciSeries.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/FirstNPrimeNumbers.java" afterPath="$PROJECT_DIR$/src/Published/Maths/FirstNPrimeNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/Published/String/FizzBuzz.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/FloydTriangle.java" afterPath="$PROJECT_DIR$/src/Published/Maths/FloydTriangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/FrontAndBackSearch.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/FrontAndBackSearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/GenerateStringsOfNLengthFromKsize.java" afterPath="$PROJECT_DIR$/src/Published/String/GenerateStringsOfNLengthFromKsize.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestElementInArray.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LargestElementInArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapBetter.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LargestGap/LargestGapBetter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestGap/LargestGapNaive.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LargestGap/LargestGapNaive.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LargestSmallestWord.java" afterPath="$PROJECT_DIR$/src/Published/String/LargestSmallestWord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LeapYear.java" afterPath="$PROJECT_DIR$/src/Published/Maths/LeapYear.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/LinearSearchVsBinarySearch.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/LinearSearchVsBinarySearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logn.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Logn/Logn.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/Logrn.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Logn/Logrn.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/Logn/LogrnBuiltIn.java" afterPath="$PROJECT_DIR$/src/Published/Maths/Logn/LogrnBuiltIn.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2LogMethod.java" afterPath="$PROJECT_DIR$/src/Published/Maths/PowerOf2/PowerOf2LogMethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOf2RemainderMethod.java" afterPath="$PROJECT_DIR$/src/Published/Maths/PowerOf2/PowerOf2RemainderMethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/PowerOf2/PowerOfTwoBitMethod.java" afterPath="$PROJECT_DIR$/src/Published/Maths/PowerOf2/PowerOfTwoBitMethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/PrintIPAddress.java" afterPath="$PROJECT_DIR$/src/Published/JavaConcept/Pair/PrintIPAddress.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/QuadraticEquation.java" afterPath="$PROJECT_DIR$/src/Published/Maths/QuadraticEquation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/RemoveVowels.java" afterPath="$PROJECT_DIR$/src/Published/String/RemoveVowels.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumber.java" afterPath="$PROJECT_DIR$/src/Published/Number/ReverseNumber/ReverseNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseNumber/ReverseNumberRecursion.java" afterPath="$PROJECT_DIR$/src/Published/Number/ReverseNumber/ReverseNumberRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseString.java" afterPath="$PROJECT_DIR$/src/Published/String/ReverseString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringReursion.java" afterPath="$PROJECT_DIR$/src/Published/String/ReverseStringReursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/ReverseStringStack.java" afterPath="$PROJECT_DIR$/src/Published/String/ReverseStringStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigits.java" afterPath="$PROJECT_DIR$/src/Published/Number/SumOfDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit.java" afterPath="$PROJECT_DIR$/src/Published/Number/SumOfDigitsTillSingleDigit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/PrintEquation.java" afterPath="$PROJECT_DIR$/src/Published/MISC/PrintEquation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitRecursion.java" afterPath="$PROJECT_DIR$/src/Published/Number/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitRecursion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/MISC/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitTricky.java" afterPath="$PROJECT_DIR$/src/Published/Number/SumOfDigitsTillSingleDigit2/SumOfDigitsTillSingleDigitTricky.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/Pair/PairExample.java" afterPath="$PROJECT_DIR$/src/Published/JavaConcept/Pair/Pair/PairExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SlidingWindowMaximum/SlidingWindowMaximumNaive.java" afterPath="$PROJECT_DIR$/src/Published/Graph/SlidingWindowMaximum/SlidingWindowMaximumNaive.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SlidingWindowMaximum/SlidingWindowMaximum_Deque.java" afterPath="$PROJECT_DIR$/src/Published/Graph/SlidingWindowMaximum/SlidingWindowMaximum_Deque.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SnakeAndLadder/SnakeAndLadder.java" afterPath="$PROJECT_DIR$/src/Published/Graph/SnakeAndLadder/SnakeAndLadder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/PrintAllSubArrays.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/PrintAllSubArrays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/PrintAllSubStrings/PrintAllSubStrings.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/PrintAllSubStrings/PrintAllSubStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/PrintArraySubSequences/PrintArraySubSequences.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/PrintArraySubSequences/PrintArraySubSequences.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/PrintStringSubSequences/PrintStringSubSequences.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/PrintStringSubSequences/PrintStringSubSequences.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/SubArraysSumProblem/SubArraySum.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/SubArraysSumProblem/SubArraySum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK_Better.java" afterPath="$PROJECT_DIR$/src/Published/Arrays/SubArraysAndSubSequences/SubarrayProductLessThanK/SubarrayProductLessThanK_Better.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ThirdLot/TextJustification/TextJustification.java" afterPath="$PROJECT_DIR$/src/Published/Graph/TextJustification/TextJustification.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Published/Graph/TopologicalSort/TopologicalSort.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -491,22 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="DistinctPermutations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Published/String/DistinctPermutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Published/String/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#509#510#0" expanded="false" />
+                <element signature="e#544#545#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,7 +40,7 @@
       <file leaf-file-name="FrontAndBackSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Published/Arrays/FrontAndBackSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="108">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
@@ -524,7 +50,7 @@
       <file leaf-file-name="LargestElementInArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Published/Arrays/LargestElementInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="135">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
@@ -574,8 +100,8 @@
       <file leaf-file-name="PrintEquation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -585,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintNumberWithSign.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -693,265 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="TODO">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="TODO">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThirdLot">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThirdLot">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MISC">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThirdLot">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Graph">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThirdLot">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="CountDigitOne">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Published">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Published">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Number">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Published">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Number">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="SumOfDigitsTillSingleDigit2">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Published">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="MISC">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Algo2017">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Published">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JavaConcept/Pair">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1068,12 +335,81 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algorithms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algorithms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algorithms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Published">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Algorithms">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Published">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Graph">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="D:/LearnDropwizard/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1585,26 +921,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3772936" sideWeight="0.29166666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36582568" sideWeight="0.7083333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36582568" sideWeight="0.7083333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2765625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49541286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2024,43 +1360,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Published/MISC/ReadMe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KpowerN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KPowerN_Naive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KpowerN_OnlyPositive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KpowerN.java" />
+    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KPowerN_Naive.java" />
+    <entry file="file://$PROJECT_DIR$/src/Published/MISC/KPowerN/KpowerN_OnlyPositive.java" />
     <entry file="file://$PROJECT_DIR$/src/Published/JavaConcept/Pair/ReadMe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2068,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2076,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-999">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2084,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2092,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2100,7 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2108,7 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2116,7 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2124,13 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2170,7 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2178,7 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2186,7 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2194,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2202,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2210,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2218,7 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2226,7 +1511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2234,7 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2242,7 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2250,7 +1532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2258,7 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2266,7 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2274,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2282,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2290,7 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2298,7 +1574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2306,7 +1581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2314,7 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2322,7 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2330,7 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2338,7 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2346,7 +1616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2354,7 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2362,7 +1630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2370,13 +1640,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Published/Arrays/FrontAndBackSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="108">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
@@ -2384,7 +1657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Published/Arrays/LargestElementInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
@@ -2425,15 +1698,23 @@
     <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintNumberWithSign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Published/Graph/TopologicalSort/TopologicalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Published/MISC/PrintEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>
