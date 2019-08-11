@@ -56,7 +56,7 @@ public class RoundPrices {
 
     public static void main(String[] args) {
         double [] prices = new double[]{ 0.70,2.80, 4.90};
-        int target =8;
+        int target =5;
         RoundPrices r = new RoundPrices();
         Result result = r.round(prices,target,0);
         System.out.println(result.value);

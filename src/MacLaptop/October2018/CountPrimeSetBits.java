@@ -1,8 +1,5 @@
 package MacLaptop.October2018;
 
-/**
- * Created by sjain on 10/21/18.
- */
 public class CountPrimeSetBits {
 
     public int countPrimeSetBits(int L, int R) {
@@ -36,6 +33,6 @@ public class CountPrimeSetBits {
 
     public static void main(String[] args) {
         CountPrimeSetBits c = new CountPrimeSetBits();
-        System.out.println(c.countPrimeSetBits(256, 256));
+        System.out.println(c.countPrimeSetBits(4, 10));
     }
 }

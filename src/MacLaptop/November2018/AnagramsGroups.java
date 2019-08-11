@@ -63,7 +63,7 @@ public class AnagramsGroups {
 
     public static void main(String[] args) {
         AnagramsGroups anagramsGroups = new AnagramsGroups();
-        String [] input = new String [] {"eat", "tea", "tan", "ate", "nat", "bat"};
+        String [] input = new String [] {"rat", "art", "cat", "act", "dog", "god", "tar", "pat"};
         HashMap<String, ArrayList<String>> result = anagramsGroups.anagrams(input);
         anagramsGroups.printResult(result);
     }

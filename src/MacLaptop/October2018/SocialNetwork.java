@@ -2,50 +2,49 @@ package MacLaptop.October2018;
 
 import java.util.*;
 
-/**
- * Created by sjain on 10/14/18.
- */
 public class SocialNetwork {
 
+    public static void formGroups(int N, int [] input){
 
-    public static void solve(int [] input){
+        int persons = N;
 
-        int persons = input[0];
-
-        TreeMap<Integer, TreeSet<Integer>> map = new TreeMap<Integer, TreeSet<Integer>>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2-o1;
-            }
-        });
-
-        for (int i = 1; i <input.length ; i++) {
+        TreeMap<Integer, ArrayList<Integer>> map = new TreeMap<>();
+        for (int i = 0; i <input.length ; i++) {
             int grp = input[i];
 
             if(map.containsKey(grp)){
-                TreeSet<Integer> ts = map.get(grp);
-                ts.add(i-1);
-                map.put(grp, ts);
+                ArrayList<Integer> list = map.get(grp);
+                list.add(i);
+                map.put(grp, list);
 
             }else{
-                TreeSet<Integer> ts = new TreeSet<Integer>();
-                ts.add(i-1);
-                map.put(grp, ts);
+                ArrayList<Integer> list = new ArrayList<>();
+                list.add(i);
+                map.put(grp, list);
             }
         }
 
         Set<Integer> set = map.keySet();
         Iterator<Integer> it = set.iterator();
-
+        int person = 0;
         while(it.hasNext()){
             int key = it.next();
-            int grp = key;
             while(map.get(key).isEmpty()==false){
+                int grp = key;
+                System.out.print("Group size: " + grp + ", Persons: ");
                 for (int i = 0; i <grp ; i++) {
-                    TreeSet<Integer> ts = map.get(key);
-                    System.out.print(ts.first());
-                    ts.remove(ts.first());
-                    map.put(key, ts);
+                    ArrayList<Integer> list = map.get(key);
+                    if(list.size()>0) {
+                        int x = list.remove(0);
+                        System.out.print(x + " ");
+                        map.put(key, list);
+                    } else if(person<persons){
+                        key = it.next();
+                        i--;
+                    } else{
+                        break;
+                    }
+                    person++;
                 }
                 System.out.println();
             }
@@ -53,7 +52,12 @@ public class SocialNetwork {
     }
 
     public static void main(String[] args) {
-        int [] a = {7, 3, 3, 3, 3, 3, 1, 3};
-        solve(a);
+        int N = 7;
+        int [] a = {3, 3, 1, 3, 2, 3};
+        formGroups(N, a);
+        System.out.println("______________________________________________");
+        N = 9;
+        int [] b = {3, 2, 3, 3, 2, 2, 3, 2, 6};
+        formGroups(N, b);
     }
 }

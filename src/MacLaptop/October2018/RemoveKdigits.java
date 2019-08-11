@@ -1,47 +1,50 @@
 package MacLaptop.October2018;
 
-import java.util.HashMap;
-import java.util.TreeSet;
+import java.util.Stack;
 
-/**
- * Created by sjain on 10/11/18.
- */
 public class RemoveKdigits {
-    public String removeKdigits(String num, int k) {
-        HashMap<String, String> hm = new HashMap<String, String>();
-        TreeSet<Integer> hs = new TreeSet<Integer>();
-        return helper(num, k, hm, hs);
-    }
 
-    public String helper(String num, int k, HashMap<String, String> hm, TreeSet<Integer> hs){
-        if(num.length()==0 || k==0)
-            return num;
+    public static String removeKdigits_Better(String num, int k) {
+        int len = num.length();
+        //corner case
+        if(k==len)
+            return "0";
 
-        if(Integer.parseInt(num)==0)
-            return 0+"";
-
-        num = Integer.parseInt(num) +"";
-
-        if(hm.containsKey(num)){
-            return hm.get(num);
-        }
-
-        for(int i=0;i<num.length();i++){
-            String temp = num.substring(0,i) + num.substring(i+1,num.length());
-            String res = helper(temp, k-1, hm, hs);
-            hm.put(temp, res);
-            if(!res.equals("")){
-                hs.add(Integer.parseInt(res));
-            }else{
-                hs.add(0);
+        Stack<Character> stack = new Stack<>();
+        int i =0;
+        while(i<num.length()){
+            //whenever meet a digit which is less than the previous digit, discard the previous one
+            while(k>0 && !stack.isEmpty() && stack.peek()>num.charAt(i)){
+                stack.pop();
+                k--;
             }
-
+            stack.push(num.charAt(i));
+            i++;
         }
 
-        return hs.first()+"";
+        // corner case like "1111"
+        while(k>0){
+            stack.pop();
+            k--;
+        }
+
+        //construct the number from the stack
+        StringBuilder sb = new StringBuilder();
+        while(!stack.isEmpty())
+            sb.append(stack.pop());
+        sb.reverse();
+
+        //remove all the 0 at the head
+        while(sb.length()>1 && sb.charAt(0)=='0')
+            sb.deleteCharAt(0);
+
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(new RemoveKdigits().removeKdigits("9", 1));
+        String input = "1453287";
+        int k = 3;
+        System.out.println("Input: " + input + ", k: " + k);
+        System.out.println("Smallest number after removing "+ k + " digits: "+ removeKdigits_Better(input, k));
     }
 }

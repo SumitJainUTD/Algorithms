@@ -1,6 +1,7 @@
 package Published.LinkedList;
 
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class MergeKSortedLinkedList {
@@ -62,6 +63,7 @@ public class MergeKSortedLinkedList {
     }
 
     public static void main(String[] args) {
+        LinkedList<Integer> x = new LinkedList<>();
         ListNode list1 = new ListNode(1);
         list1.next = new ListNode(5);
         print(list1);
