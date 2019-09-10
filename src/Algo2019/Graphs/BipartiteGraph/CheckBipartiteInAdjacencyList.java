@@ -2,7 +2,7 @@ package Algo2019.Graphs.BipartiteGraph;
 
 import java.util.LinkedList;
 
-public class CheckBipartitleInAdjacencyList {
+public class CheckBipartiteInAdjacencyList {
     enum Color{
         WHITE, RED, GREEN
     }
@@ -65,17 +65,25 @@ public class CheckBipartitleInAdjacencyList {
             for (int i = 0; i <adjList[source].size() ; i++) {
                 int vertex = adjList[source].get(i);
                 if(colors[vertex]==Color.WHITE){
-                    if(colors[source]==Color.RED)
+                    //color is with the alternate color of
+                    if(colors[source]==Color.RED) {
+                        //if source is in red, make vertex green
                         colors[vertex] = Color.GREEN;
-                    else if (colors[source]==Color.GREEN)
+                    }
+                    else if (colors[source]==Color.GREEN) {
+                        //if source is in red, make vertex green
                         colors[vertex] = Color.RED;
+                    }
 
+                    //make recursive call for DFS
                     return isBipartiteUtil(vertex, colors);
 
-                }else if(colors[source]==colors[vertex]){
+                } else if(colors[source]==colors[vertex]){
                     return false;
                 }
             }
+            // if here means graph is successfully colored in 2 color, red and green
+            //graph is bipartite
             return true;
         }
     }

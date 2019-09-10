@@ -20,7 +20,6 @@ public class SieveOfEratosthenes {
             }
         }
         //Now print all the prime numbers
-
         for (int i = 2; i <=N ; i++) {
             if(prime[i] == 1)
                 System.out.print(i + " ");
@@ -29,6 +28,7 @@ public class SieveOfEratosthenes {
 
     public static void main(String[] args) {
         int N = 60;
+        System.out.println("Number of Prime numbers less than N=" +N);
         findPrimeNumbers(N);
     }
 }

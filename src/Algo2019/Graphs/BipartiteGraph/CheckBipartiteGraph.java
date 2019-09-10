@@ -1,6 +1,6 @@
 package Algo2019.Graphs.BipartiteGraph;
 
-public class CheckBiPartiteGraph {
+public class CheckBipartiteGraph {
 
     enum Color{
         WHITE, RED, GREEN
@@ -44,10 +44,14 @@ public class CheckBiPartiteGraph {
             //if u-v exist and v is color with white
             if(graph[u][v]==1 && colors[v]==Color.WHITE){
                 //color is with the alternate color of vertex v
-                if(colors[u]==Color.RED)
+                if(colors[u]==Color.RED) {
+                    //if u is in red, make vertex v in green
                     colors[v] = Color.GREEN;
-                else if (colors[u]==Color.GREEN)
+                }
+                else if (colors[u]==Color.GREEN) {
+                    //if u is in green, make vertex v in red
                     colors[v] = Color.RED;
+                }
 
                 //make recursive call
 
@@ -56,12 +60,14 @@ public class CheckBiPartiteGraph {
                 return false;
             }
         }
+        // if here means graph is successfully colored in 2 color, red and green
+        //graph is bipartite
         return true;
     }
 
 
     public static void main(String[] args) {
-        CheckBiPartiteGraph c = new CheckBiPartiteGraph();
+        CheckBipartiteGraph c = new CheckBipartiteGraph();
         int [][] graph =    {   {0, 1, 1, 1},
                                 {1, 0, 0, 1},
                                 {0, 0, 0, 1},

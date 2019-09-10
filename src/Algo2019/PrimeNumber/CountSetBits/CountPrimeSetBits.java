@@ -1,4 +1,4 @@
-package MacLaptop.October2018;
+package Algo2019.PrimeNumber.CountSetBits;
 
 public class CountPrimeSetBits {
 
