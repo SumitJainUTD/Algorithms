@@ -1,0 +1,46 @@
+package Algo2019.PrintAllSwapForConvertOneStringToAnother;
+
+public class PrintAllPathsToConvertOneStringToAnother {
+    public void convert(String source, String target){
+        System.out.println("Source: " + source);
+        System.out.println("Target: " + target);
+        StringBuilder allCombination = new StringBuilder();
+        allCombination.append(source);
+        String currentPath = source;
+        convertUtil(source, target, allCombination, source);
+    }
+
+    public void convertUtil(String source, String target, StringBuilder allCombination, String currentPath){
+
+        //check if goal is achieved
+        if(source.equals(target)){
+            System.out.println(currentPath);
+            return;
+        }
+
+        for (int i = 0; i <source.length()-1 ; i++) {
+            String newSource = swap(source, i, i+1);
+            //to avoid going in circles
+            if(!allCombination.toString().contains(newSource)) {
+                if(!newSource.equals(target))
+                    allCombination.append("," + newSource);
+                convertUtil(newSource, target, allCombination, currentPath+" -> " + newSource);
+            }
+        }
+    }
+
+    public String swap(String src, int i, int j){
+        StringBuilder stringBuilder = new StringBuilder(src);
+        stringBuilder.setCharAt(i, src.charAt(j));
+        stringBuilder.setCharAt(j, src.charAt(i));
+        return stringBuilder.toString();
+    }
+
+    public static void main(String[] args) {
+        PrintAllPathsToConvertOneStringToAnother p = new PrintAllPathsToConvertOneStringToAnother();
+        String source = "TAR";
+        String target = "RAT";
+        p.convert(source, target);
+
+    }
+}
