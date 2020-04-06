@@ -31,7 +31,7 @@ public class BFSDisconnectedGraph {
 
             boolean [] visited = new boolean[vertices];
             Queue<Integer> queue = new LinkedList<>();
-
+            System.out.println("BFS: ");
             for (int i = 0; i <vertices ; i++) {
                 if(!visited[i]){
                     queue.add(i);
@@ -61,7 +61,7 @@ public class BFSDisconnectedGraph {
     }
 
     public static void main(String[] args) {
-        BFSConnectedGraph.Graph g = new BFSConnectedGraph.Graph(7);
+        Graph g = new Graph(7);
         g.addEdge(0, 1);
         g.addEdge(0, 2);
         g.addEdge(1, 2);

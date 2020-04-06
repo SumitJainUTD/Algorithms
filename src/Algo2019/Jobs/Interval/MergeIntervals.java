@@ -57,8 +57,6 @@ public class MergeIntervals {
             }
         }
 
-
-
         // Print all merged intervals
         System.out.print("Merged Intervals: ");
         while (!stack.isEmpty()) {

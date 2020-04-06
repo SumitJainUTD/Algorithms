@@ -12,9 +12,10 @@ public class MinimumIncrementsToMakeArrayUnique {
         int minimumIncrements = 0;
         for (int i = 1; i <input.length ; i++) {
             if(input[i] <= previous){
+                int temp = input[i];
                 input[i] = previous;
                 input[i]++;
-                minimumIncrements++;
+                minimumIncrements += input[i]-temp;
             }
             previous = input[i];
         }
@@ -23,7 +24,7 @@ public class MinimumIncrementsToMakeArrayUnique {
     }
 
     public static void main(String[] args) {
-        int input[] = { 1, 1, 3, 3 };
+        int input[] = { 1, 1, 1, 1 };
         minimumIncrements(input);
     }
 }

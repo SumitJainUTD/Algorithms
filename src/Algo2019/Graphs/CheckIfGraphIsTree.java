@@ -102,11 +102,11 @@ public class CheckIfGraphIsTree {
             graph.checkifTree();
             System.out.println("----------------------------");
             Graph graph1 = new Graph(5);
-            graph.addEdge(1,0);
-            graph.addEdge(3,1);
-            graph.addEdge(3,2);
-            graph.addEdge(3,4);
-            graph.addEdge(4,0);
+            graph1.addEdge(1,0);
+            graph1.addEdge(3,1);
+            graph1.addEdge(3,2);
+            graph1.addEdge(3,4);
+            graph1.addEdge(4,0);
             graph1.checkifTree();
             System.out.println("----------------------------");
             Graph graph2 = new Graph(5);
